@@ -1,0 +1,24 @@
+.header {
+  width: 192rem;
+  height: 8rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0rem 4.8rem 0rem 4.8rem;
+  box-shadow: 0rem 1.2rem 3.6rem var(--shadow-003);
+  position: relative;
+  z-index: 100;
+}
+.logo {
+  width: 16.3rem;
+  height: 2.2rem;
+}
+.header_right {
+  width: 71rem;
+  height: 4.2rem;
+  display: flex;
+  flex-direction: row;
+  gap: 4.8rem;
+  align-items: center;
+}

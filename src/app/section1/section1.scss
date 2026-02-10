@@ -1,0 +1,72 @@
+.grid_sec1 {
+  display: grid;
+  grid-template-rows: 100%;
+  grid-template-columns: 46% 54%;
+}
+.deliver {
+  font-weight: 700;
+  font-size: 5.2rem;
+  line-height: 5.46rem;
+  letter-spacing: -0.5px;
+  font-style: bold;
+  color: var(--black-h);
+  margin-top: -0.06rem;
+}
+.info_delivery {
+  font-weight: 400;
+  font-style: normal;
+  font-size: 2rem;
+  line-height: 3.2rem;
+  letter-spacing: 0%;
+  vertical-align: middle;
+  color: var(--gray-info);
+  margin-top: 4.5rem;
+}
+
+.healthy_food_dilevery {
+  width: 192rem;
+  height: 71.8rem;
+  padding: 4.8rem 31rem 9.6rem 31rem;
+  background-color: var(--sec1-fon);
+}
+
+.avatar {
+  width: 4.8rem;
+  height: 4.8rem;
+  border-radius: 2.4rem;
+  border: 3px solid var(--border-color);
+  margin-left: -2rem;
+}
+.avatar:hover {
+  transform: scale(130%);
+  margin-left: -1rem;
+  margin-right: 1rem;
+  filter: drop-shadow(0 0 1rem);
+  transition: 0.5s;
+}
+.text-color-orange {
+  color: var(--text-color-orange);
+  font-weight: 600;
+  font-style: SemiBold;
+}
+.sec1_p {
+  font-weight: 700;
+  font-style: Bold;
+  font-size: 1.8rem;
+  line-height: 1.8rem;
+  vertical-align: middle;
+}
+.avatar_and_text {
+  width: 57rem;
+  height: 4.8rem;
+  margin-top: 8.6rem;
+  display: flex;
+  flex-direction: row;
+  gap: 1.6rem;
+  align-items: center;
+  padding-left: 1.9rem;
+}
+.img_deliv_grid {
+  width: 57rem;
+  height: 56.2rem;
+}
