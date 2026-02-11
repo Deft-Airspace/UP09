@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
 :root {
   --shadow-003: rgba(0, 0, 0, 0.3);
   --button-color: #e67e22;
@@ -11,6 +12,11 @@
   --case-h-color-gray: #dddddd;
   --front-circle: #fdf2e9;
   --back-circle: #fae5d3;
+  --green-color-card-mark: #51cf66;
+  --lightgreen-color-card-mark: #94d82d;
+  --yellow-color-card-mark: #ffd43b;
+  --red-color-card-mark: rgb(245, 98, 98);
+  --card-shadow: rgba(0, 0, 0, 0.075);
 }
 * {
   margin: 0;
@@ -23,10 +29,10 @@ html {
 }
 
 body {
-  font-family: system-ui, -apple-system, sans-serif;
   line-height: 1;
   color: #333;
   overflow-x: hidden;
+  font-family: 'Rubik';
 }
 
 .container {

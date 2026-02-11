@@ -1,0 +1,249 @@
+.system_ai {
+  display: flex;
+  width: 192rem;
+  height: 150rem;
+  margin-top: 10rem;
+  flex-direction: column;
+  align-items: center;
+  gap: 10rem;
+}
+.system_text_container {
+  width: 120rem;
+  height: 13.74rem;
+  max-width: 120rem;
+  justify-content: space-between;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0rem 32rem;
+}
+.system_text_zag {
+  font-family: 'Rubik';
+  font-weight: 500;
+  font-style: medium;
+  font-size: 1.6rem;
+  line-height: 1.6rem;
+  letter-spacing: 0.075rem;
+  text-align: center;
+  vertical-align: middle;
+  text-transform: uppercase;
+  color: var(--text-color-orange);
+}
+.system_zag {
+  width: 113.6rem;
+  height: 10.6rem;
+  font-family: 'Rubik';
+  font-weight: 700;
+  font-style: bold;
+  font-size: 4.4rem;
+  line-height: 5.28rem;
+  letter-spacing: -0.05rem;
+  text-align: center;
+  vertical-align: middle;
+  color: var(--black-h);
+}
+
+/*Карточки*/
+
+.card_container_flex {
+  display: flex;
+  width: 120rem;
+  flex-direction: row;
+  flex-wrap: wrap;
+  height: max-content;
+  max-width: 120rem;
+  padding: 0rem 3.2rem;
+  gap: 6.4rem;
+}
+.card {
+  width: 33.6rem;
+  height: 50.616rem;
+  border: none;
+  border-radius: 1.1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.2rem;
+  overflow: hidden;
+  box-shadow: 0rem 2.4rem 4.8rem var(--card-shadow);
+}
+.card:hover {
+  transform: scale(108%) rotate(5deg);
+  box-shadow: 0rem 0rem 1rem var(--black-h);
+  transition: 0.5s;
+}
+
+.food_card {
+  width: inherit;
+  height: 22.416rem;
+}
+.cadr_full_info_conteiner {
+  width: inherit;
+  display: flex;
+  flex-direction: column;
+  height: 28rem;
+  padding: 3.2rem 4.8rem 4.8rem 4.8rem;
+  gap: 12px;
+}
+.card_mark_conteiner {
+  width: 24rem;
+  height: 2rem;
+  display: flex;
+  flex-direction: row;
+  gap: 0.4rem;
+}
+
+/*Цвета и размеры маркеров*/
+
+.card_mark {
+  height: 2rem;
+  padding: 0.4rem 0.8rem;
+  border: none;
+  border-radius: 10rem;
+  color: var(--black-h);
+  font-family: 'Rubik';
+  font-weight: 600;
+  font-style: SemiBold;
+  font-size: 1.2rem;
+  line-height: 1.2rem;
+  letter-spacing: 0%;
+  vertical-align: middle;
+  text-align: center;
+  text-transform: uppercase;
+}
+.green_big {
+  width: 12.9rem;
+  background-color: var(--green-color-card-mark);
+}
+.lightgreen_medium {
+  width: 8.8rem;
+  background-color: var(--lightgreen-color-card-mark);
+}
+.yellow_small {
+  width: 5.9rem;
+  background-color: var(--yellow-color-card-mark);
+}
+.red_medium {
+  width: 8.8rem;
+  background-color: var(--red-color-card-mark);
+}
+
+/*Заголовок карточек*/
+
+.card_zag {
+  width: 24rem;
+  height: 2.4rem;
+  font-family: 'Rubik';
+  font-weight: 600;
+  font-style: SemiBold;
+  font-size: 2.4rem;
+  line-height: 2.4rem;
+  letter-spacing: 0%;
+  vertical-align: middle;
+  color: var(--black-h);
+}
+
+/*Заполнение карточек и контейнер заполнения*/
+
+.info_container {
+  width: 24rem;
+  height: 13.2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+  padding-top: 2rem;
+}
+.info_card_string {
+  display: flex;
+  flex-direction: row;
+  gap: 1.6rem;
+  width: inherit;
+  height: 2.4rem;
+  align-items: center;
+}
+.img_card_icon {
+  width: 2.4rem;
+  height: 2.4rem;
+}
+.card_string_text {
+  height: 1.8rem;
+  font-family: 'Rubik';
+  font-weight: 500;
+  font-style: Medium;
+  font-size: 1.8rem;
+  line-height: 1.8rem;
+  letter-spacing: 0%;
+  vertical-align: middle;
+  color: var(--gray-info);
+}
+.card_list {
+  display: flex;
+  flex-direction: column;
+  gap: 4.2rem;
+  width: 33.6rem;
+  height: 50.616rem;
+}
+.list_zag {
+  width: inherit;
+  height: 7.2rem;
+  font-family: 'Rubik';
+  font-weight: 700;
+  font-style: Bold;
+  font-size: 3rem;
+  line-height: 3.6rem;
+  letter-spacing: -0.05rem;
+  vertical-align: middle;
+  color: var(--black-h);
+}
+.card_ul {
+  width: inherit;
+  height: 39.8rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2.2rem;
+}
+.list_style {
+  width: 3rem;
+  height: 3rem;
+}
+.card_ul li {
+  height: 2.2rem;
+  font-family: 'Rubik';
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 1.8rem;
+  line-height: 2.16rem;
+  letter-spacing: 0%;
+  vertical-align: middle;
+  color: var(--gray-info);
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  gap: 1.6rem;
+  align-items: center;
+}
+
+/*Текст после блока карточек*/
+
+.a_conteiner {
+  width: 120rem;
+  height: 2.1rem;
+  max-width: 120rem;
+  padding: 0 3.2rem;
+  display: flex;
+  justify-content: center;
+}
+.text_under_case_block {
+  width: 24rem;
+  height: 1.8rem;
+  font-family: 'Rubik';
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 1.8rem;
+  line-height: 1.8rem;
+  letter-spacing: 0%;
+  text-align: center;
+  vertical-align: middle;
+  color: var(--button-color);
+  text-wrap: nowrap;
+}

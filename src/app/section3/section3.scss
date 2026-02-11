@@ -4,7 +4,7 @@
   align-items: center;
   justify-content: space-between;
   width: 192rem;
-  height: 88.43rem;
+  height: max-content;
   padding: 8rem 36rem 4.8rem 36rem;
   gap: 9.6rem;
 }
@@ -48,6 +48,9 @@
   grid-template-rows: 4.44rem/3;
   gap: 2.4rem;
 }
+
+/*Кейс текста и размеры*/
+
 .case_info {
   width: 53.5rem;
   margin-top: 0.772rem;
@@ -65,9 +68,13 @@
 .three_case {
   height: 29.6rem;
 }
+
+/*Заолнение кейса текста*/
+
 .number {
   width: inherit;
   height: 8.6rem;
+  font-family: 'Rubik';
   font-weight: 600;
   font-style: SemiBold;
   font-size: 8.6rem;
@@ -101,6 +108,9 @@
   vertical-align: middle;
   color: var(--gray-info);
 }
+
+/*Блоки приложения*/
+
 .smartphone_container {
   width: inherit;
   height: 37.941rem;
