@@ -19,7 +19,7 @@ body {
 }
 .a_button {
 	text-decoration: none;
-	color: transparent;
+	color: inherit;
 }
 
 .container {
