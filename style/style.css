@@ -781,7 +781,7 @@ button:active {
 /*Галлерея*/
 
 .img_gallery {
-  width: 86.4rem;
+  width: 75.4rem;
   height: 114.69rem;
   display: grid;
   grid-template-columns: repeat(3, 25rem);
@@ -794,6 +794,15 @@ button:active {
 .gallery_pice {
   width: 25rem;
   height: 25rem;
+  transition: 0.2s;
+}
+
+.gallery_pice:hover {
+  transform: scale(150%);
+  transition: 0.6s ease-in-out;
+  box-shadow: 0 0 3rem black;
+  overflow: hidden;
+  border-radius: 50%;
 }
 
 /*Секция №6*/
@@ -803,6 +812,7 @@ button:active {
   height: 151.672rem;
   display: flex;
   flex-direction: column;
+  gap: 6rem;
   align-items: center;
 }
 .cost_zag_container {
@@ -844,4 +854,240 @@ button:active {
   height: 62.638rem;
   max-width: 120rem;
   padding: 0 16.6rem;
+
+  display: flex;
+  gap: 7rem;
 }
+
+/*Карточки и их части*/
+
+/*Первая часть карточки*/
+
+.cost_card {
+  width: 40.2rem;
+  height: 62.638rem;
+  border: none;
+  border-radius: 1.1rem;
+  padding: 4.6rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5rem;
+}
+.one_card {
+  border: 2px solid var(--front-circle);
+}
+.cost_card_pice_one {
+  width: 30.6rem;
+  height: 18.119rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+.text_zag_card {
+  width: inherit;
+  height: 2rem;
+  font-family: "Rubik";
+  font-weight: 600;
+  font-style: SemiBold;
+  font-size: 2rem;
+  line-height: 2rem;
+  letter-spacing: 0%;
+  text-align: center;
+  vertical-align: middle;
+  text-transform: uppercase;
+  color: var(--text-color-orange);
+}
+.cost_string {
+  width: inherit;
+  height: 6.2rem;
+  display: flex;
+  justify-content: center;
+  gap: 0.5rem;
+}
+.symphol {
+  width: 2.1rem;
+  height: 5rem;
+  padding: 0.3rem 0;
+  font-family: "Rubik";
+  font-weight: 500;
+  font-style: normal;
+  font-size: 3rem;
+  line-height: 3rem;
+  letter-spacing: 0%;
+  text-align: center;
+  vertical-align: middle;
+  color: var(--black-h);
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+}
+.cost_zag_card {
+  height: 6.2rem;
+  font-family: "Rubik";
+  font-weight: 600;
+  font-style: SemiBold;
+  font-size: 5.2rem;
+  line-height: 5.2rem;
+  letter-spacing: 0%;
+  text-align: center;
+  vertical-align: middle;
+  color: var(--black-h);
+}
+.reviews_cost {
+  width: 30.6rem;
+  height: 5.2rem;
+  font-family: "Rubik";
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1.6rem;
+  line-height: 2.56rem;
+  letter-spacing: 0%;
+  text-align: center;
+  vertical-align: middle;
+  color: var(--user-name-color);
+}
+
+/*Вторая часть карточки*/
+
+.cost_info_list {
+  width: 30.6rem;
+  height: 18.119rem;
+}
+.cost_info_list ul {
+  display: flex;
+  flex-direction: column;
+  gap: 2.6rem;
+}
+.cost_info_list li {
+  width: inherit;
+  height: min-content;
+  display: flex;
+  flex-direction: row;
+  gap: 1.6rem;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1.8rem;
+  line-height: 2.16rem;
+  letter-spacing: 0%;
+  vertical-align: middle;
+  color: var(--gray-info);
+}
+.list_style {
+  width: 3rem;
+  height: 3rem;
+}
+.cost_caed_button {
+  width: 30.6rem;
+  height: 7.2rem;
+  border-radius: 0.9rem;
+  border: none;
+  padding: 1.6rem 5.352rem;
+  background-color: var(--button-color);
+  font-weight: 600;
+  font-style: SemiBold;
+  font-size: 2rem;
+  line-height: 2rem;
+  letter-spacing: 0%;
+  text-align: center;
+  vertical-align: middle;
+  color: var(--button-text-or-fon-color);
+}
+.two_card {
+  background-color: var(--section-five-color);
+  overflow: hidden;
+}
+.two_card::after {
+  content: "Best value";
+  position: relative;
+  top: -58rem;
+  right: -14.2rem;
+  font-weight: 700;
+  font-style: Bold;
+  font-size: 1.4rem;
+  line-height: 1.4rem;
+  letter-spacing: 0%;
+  vertical-align: middle;
+  text-transform: uppercase;
+  color: var(--black-h);
+  width: 24.5rem;
+  height: 3rem;
+  padding: 0.8rem 8rem;
+  background-color: var(--yellow-color-card-mark);
+  text-align: center;
+  rotate: 45deg;
+}
+
+/*Подпись после карточек*/
+
+.cost_info_under_card {
+  width: 113.6rem;
+  height: 2.6rem;
+  display: flex;
+  justify-content: center;
+}
+.cost_text_info {
+  width: 102.8rem;
+  height: inherit;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1.6rem;
+  line-height: 2.56rem;
+  letter-spacing: 0%;
+  text-align: center;
+  vertical-align: middle;
+  color: var(--gray-info);
+}
+
+/*Блок пометок*/
+
+.mark_block_cost_container {
+  width: 120rem;
+  height: 34.795rem;
+  max-width: 120rem;
+  padding: 0 3.2rem;
+  display: flex;
+  gap: 6.4rem;
+  margin-top: 4rem;
+}
+
+/*Сами колонки пометок и их заполнение*/
+
+.mark_cost {
+  width: 23.6rem;
+  height: 34.795rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+.mark_cost_img {
+  width: 6.4rem;
+  height: 6.4rem;
+  border-radius: 50%;
+}
+.mark_cost_zag {
+  width: inherit;
+  height: 4.8rem;
+  font-weight: 700;
+  font-style: bold;
+  font-size: 2.4rem;
+  line-height: 2.4rem;
+  letter-spacing: 0%;
+  vertical-align: middle;
+  color: var(--black-h);
+}
+.mark_cost_info {
+  width: inherit;
+  height: 13rem;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1.8rem;
+  line-height: 3.24rem;
+  letter-spacing: 0%;
+  vertical-align: middle;
+  color: var(--gray-info);
+}
+
+/*Секция №7*/
+
+
