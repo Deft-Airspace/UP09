@@ -14,7 +14,7 @@ html {
 body {
 	line-height: 1;
 	color: #333;
-	overflow-x: hidden;
+
 	font-family: 'Rubik';
 }
 .a_button {
@@ -34,7 +34,7 @@ body {
 /*Хэдер*/
 
 header {
-	width: 192rem;
+	max-width: 192rem;
 	height: 8rem;
 	display: flex;
 	flex-direction: row;
@@ -90,7 +90,7 @@ button:active {
 }
 .sec1_but {
 	font-weight: 600;
-	font-style: SemiBold;
+	font-style: Bold;
 	font-size: 2rem;
 	line-height: 1rem;
 	letter-spacing: 0%;
@@ -137,7 +137,7 @@ button:active {
 }
 
 .healthy_food_dilevery {
-	width: 192rem;
+	max-width: 192rem;
 	height: 71.8rem;
 	padding: 4.8rem 31rem 9.6rem 31rem;
 	background-color: var(--sec1-fon);
@@ -151,18 +151,19 @@ button:active {
 	border-radius: 2.4rem;
 	border: 3px solid var(--border-color);
 	margin-left: -2rem;
+	transition: 0.2s ease-in;
 }
 .avatar:hover {
 	transform: scale(130%);
 	margin-left: -1rem;
 	margin-right: 1rem;
 	filter: drop-shadow(0 0 1rem);
-	transition: 0.5s;
+	transition: 0.5s ease-in-out;
 }
 .text-color-orange {
 	color: var(--text-color-orange);
 	font-weight: 600;
-	font-style: SemiBold;
+	font-style: Bold;
 }
 .sec1_p {
 	font-weight: 700;
@@ -191,7 +192,8 @@ button:active {
 .company {
 	display: flex;
 	justify-content: center;
-	width: 192rem;
+
+	max-width: 192rem;
 }
 .company_container {
 	display: flex;
@@ -241,7 +243,8 @@ button:active {
 	flex-direction: column;
 	align-items: center;
 	justify-content: space-between;
-	width: 192rem;
+
+	max-width: 192rem;
 	height: max-content;
 	padding: 8rem 36rem 4.8rem 36rem;
 	gap: 9.6rem;
@@ -314,7 +317,7 @@ button:active {
 	height: 8.6rem;
 	font-family: 'Rubik';
 	font-weight: 600;
-	font-style: SemiBold;
+	font-style: Bold;
 	font-size: 8.6rem;
 	line-height: 8.6rem;
 	letter-spacing: 0%;
@@ -428,7 +431,8 @@ button:active {
 
 .system_ai {
 	display: flex;
-	width: 192rem;
+
+	max-width: 192rem;
 	height: 150rem;
 	margin-top: 10rem;
 	flex-direction: column;
@@ -531,7 +535,7 @@ button:active {
 	color: var(--black-h);
 	font-family: 'Rubik';
 	font-weight: 600;
-	font-style: SemiBold;
+	font-style: Bold;
 	font-size: 1.2rem;
 	line-height: 1.2rem;
 	letter-spacing: 0%;
@@ -563,7 +567,7 @@ button:active {
 	height: 2.4rem;
 	font-family: 'Rubik';
 	font-weight: 600;
-	font-style: SemiBold;
+	font-style: Bold;
 	font-size: 2.4rem;
 	line-height: 2.4rem;
 	letter-spacing: 0%;
@@ -680,7 +684,7 @@ button:active {
 /*Секция №5*/
 
 .presents_company {
-	width: 192rem;
+	max-width: 192rem;
 	height: 114.669rem;
 	background-color: var(--section-five-color);
 	display: grid;
@@ -823,7 +827,7 @@ button:active {
 /*Секция №6*/
 
 .cost {
-	width: 192rem;
+	max-width: 192rem;
 	height: 151.672rem;
 	display: flex;
 	flex-direction: column;
@@ -908,7 +912,7 @@ button:active {
 	height: 2rem;
 	font-family: 'Rubik';
 	font-weight: 600;
-	font-style: SemiBold;
+	font-style: Bold;
 	font-size: 2rem;
 	line-height: 2rem;
 	letter-spacing: 0%;
@@ -945,7 +949,7 @@ button:active {
 	height: 6.2rem;
 	font-family: 'Rubik';
 	font-weight: 600;
-	font-style: SemiBold;
+	font-style: Bold;
 	font-size: 5.2rem;
 	line-height: 5.2rem;
 	letter-spacing: 0%;
@@ -1004,7 +1008,7 @@ button:active {
 	padding: 1.6rem 5.352rem;
 	background-color: var(--button-color);
 	font-weight: 600;
-	font-style: SemiBold;
+	font-style: Bold;
 	font-size: 2rem;
 	line-height: 2rem;
 	letter-spacing: 0%;
@@ -1110,7 +1114,7 @@ button:active {
 /*Секция №7*/
 
 .for_registr_form {
-	width: 192rem;
+	max-width: 192rem;
 	height: 76rem;
 	display: flex;
 	justify-content: center;
@@ -1249,7 +1253,7 @@ button:active {
 /*Футер*/
 
 footer {
-	width: 192rem;
+	max-width: 192rem;
 	height: 46.7rem;
 	margin-top: 5rem;
 	border-top: 1px solid var(--footer-border);
