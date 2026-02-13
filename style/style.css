@@ -1005,7 +1005,7 @@ button:active {
   height: 7.2rem;
   border-radius: 0.9rem;
   border: none;
-  padding: 1.6rem 5rem;
+  padding: 1.6rem 4rem;
   background-color: var(--button-color);
   font-weight: 600;
   font-style: Bold;
