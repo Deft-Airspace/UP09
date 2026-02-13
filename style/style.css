@@ -975,7 +975,7 @@ button:active {
 
 .cost_info_list {
   width: 30.6rem;
-  height: 18.119rem;
+  height: max-content;
 }
 .cost_info_list ul {
   display: flex;
@@ -1005,7 +1005,7 @@ button:active {
   height: 7.2rem;
   border-radius: 0.9rem;
   border: none;
-  padding: 1.6rem 4rem;
+  padding: 1.6rem 5rem;
   background-color: var(--button-color);
   font-weight: 600;
   font-style: Bold;
