@@ -16,7 +16,7 @@
   display: flex;
   overflow: hidden;
   background: linear-gradient(145deg, var(--lightorange-color), var(--button-color));
-  box-shadow: 0 2.4rem 4.8rem var(--shadow-003);
+  box-shadow: 0 2.4rem 4.8rem var(--shadow-015);
 }
 .registr_left_text_block {
   width: 72rem;
@@ -115,16 +115,4 @@
   box-shadow: inset 0 0.1rem 0.3rem var(--shadow-003), 0 0.1rem 3rem var(--shadow-003);
   transform: scale(103%);
   transition: 0.2s ease-in-out;
-}
-.registr_form_button {
-  width: 29.922rem;
-  height: 4.8rem;
-  border: none;
-  border-radius: 0.9rem;
-  padding: 1.2rem;
-  background-color: var(--form-text-color);
-  color: var(--button-text-or-fon-color);
-}
-.registr_form_button:active {
-  box-shadow: inset 0 0 0.7rem var(--sec1-fon);
 }

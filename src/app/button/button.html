@@ -11,4 +11,10 @@
 <button class="orange_but sec1_but">
   {{ text() }}
 </button>
+} @if(type() == "cost_card"){
+<button class="cost_card_button">
+  {{ text() }}
+</button>
+} @if(type() == "submit"){
+<button class="registr_form_button">{{ text() }}</button>
 }
