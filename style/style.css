@@ -98,7 +98,6 @@ button:active {
   width: 34.6rem;
   height: 5.2rem;
   margin-top: 5.9rem;
-
   vertical-align: middle;
 }
 .white_but {
@@ -1001,12 +1000,12 @@ button:active {
   width: 3rem;
   height: 3rem;
 }
-.cost_caed_button {
+.cost_card_button {
   width: 30.6rem;
   height: 7.2rem;
   border-radius: 0.9rem;
   border: none;
-  padding: 1.6rem 5.352rem;
+  padding: 1.6rem 4rem;
   background-color: var(--button-color);
   font-weight: 600;
   font-style: Bold;
