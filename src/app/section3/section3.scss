@@ -3,7 +3,8 @@
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
-  width: 192rem;
+
+  max-width: 192rem;
   height: max-content;
   padding: 8rem 36rem 4.8rem 36rem;
   gap: 9.6rem;
@@ -76,7 +77,7 @@
   height: 8.6rem;
   font-family: 'Rubik';
   font-weight: 600;
-  font-style: SemiBold;
+  font-style: Bold;
   font-size: 8.6rem;
   line-height: 8.6rem;
   letter-spacing: 0%;
@@ -101,7 +102,7 @@
   padding-top: 2rem;
   font-family: 'Rubik';
   font-weight: 400;
-  font-style: regular;
+  font-style: normal;
   font-size: 1.8rem;
   line-height: 3.24rem;
   letter-spacing: 0%;

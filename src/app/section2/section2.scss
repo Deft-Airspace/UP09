@@ -1,7 +1,8 @@
 .company {
   display: flex;
   justify-content: center;
-  width: 192rem;
+
+  max-width: 192rem;
 }
 .company_container {
   display: flex;
@@ -25,6 +26,9 @@
   text-transform: uppercase;
   color: var(--gray-color-about);
 }
+
+/*Логотипы*/
+
 .flex_col_sec2 {
   display: flex;
   justify-content: space-between;

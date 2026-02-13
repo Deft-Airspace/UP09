@@ -1,0 +1,127 @@
+footer {
+  max-width: 192rem;
+  height: 46.7rem;
+  margin-top: 5rem;
+  border-top: 1px solid var(--footer-border);
+  padding: 12.8rem 36rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footer_conteiner {
+  width: 120rem;
+  height: 21.1rem;
+  max-width: 120rem;
+  padding: 0 3.2rem;
+  display: flex;
+  flex-direction: row;
+  gap: 6.4rem;
+}
+
+/*Колонки и их размеры + иконки*/
+
+.footer_column {
+  width: 21.356rem;
+  height: inherit;
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+.footer_small_column {
+  width: 14.239rem;
+}
+.footer_medium_column {
+  width: 16.808rem;
+}
+.footer_medium_column,
+.footer_small_column {
+  gap: 2.7rem;
+}
+.footer_column:nth-child(1),
+.footer_column:nth-child(5),
+.footer_column:nth-child(2) {
+  justify-content: space-between;
+}
+.footer_icons {
+  width: inherit;
+  height: 2.8rem;
+  display: flex;
+  gap: 2.4rem;
+}
+.footer_icons_img {
+  width: 2.4rem;
+  height: 2.4rem;
+}
+
+/*Текст первой колонки*/
+
+.footer_text {
+  width: inherit;
+  height: 6.8rem;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1.4rem;
+  line-height: 2.24rem;
+  letter-spacing: 0%;
+  vertical-align: middle;
+  color: var(--footer-under-logo);
+}
+
+/*Заголовок колонок*/
+
+.footer_column_zag {
+  width: inherit;
+  height: 1.8rem;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 1.8rem;
+  line-height: 1.8rem;
+  letter-spacing: 0%;
+  vertical-align: middle;
+  color: var(--gray-info);
+}
+
+/*Для адресов первой колонки*/
+
+.footer_adres {
+  width: inherit;
+  height: 5.2rem;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1.6rem;
+  line-height: 2.56rem;
+  letter-spacing: 0%;
+  vertical-align: middle;
+  color: var(--gray-info);
+}
+
+/*Для контактов первой колонки*/
+
+.footer_contacts {
+  width: inherit;
+  height: 5.16rem;
+  display: flex;
+  flex-direction: column;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1.6rem;
+  line-height: 2.56rem;
+  letter-spacing: 0%;
+  vertical-align: middle;
+  color: var(--footer-under-logo);
+}
+
+/*Текст других колонок*/
+
+.footer_text_16px {
+  width: inherit;
+  height: min-content;
+  padding: 0 0.15rem;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1.6rem;
+  line-height: 1.6rem;
+  letter-spacing: 0%;
+  vertical-align: middle;
+  color: var(--footer-under-logo);
+}

@@ -3,83 +3,59 @@
 
   <article class="left_presents">
     <div class="presents_reviews_conteiner">
-      <p class="presents_text_zag">Отзывы</p>
+      <p class="presents_text_zag" id="reviews">Отзывы</p>
       <h3 class="presents_zag">Попробовав однажды, вы уже не сможете вернуться к прежнему</h3>
     </div>
     <div class="reviews_grid_2row_2col">
       <!--Первый Пользователь-->
 
-      <div class="reviews_block">
-        <img alt="Аватар" class="avatar_reviews" src="img/customers/dave.jpg" />
-        <p class="reviews_user">
-          Недорогие, полезные и очень вкусные блюда, даже без необходимости заказывать вручную! Это
-          просто волшебно!
-        </p>
-        <p class="user_name">— Dave Bryson</p>
-      </div>
+      <app-reviews
+        img="img/customers/dave.jpg"
+        review="Недорогие, полезные и очень вкусные блюда, даже без необходимости заказывать вручную! Это
+          просто волшебно!"
+        username="— Dave Bryson"
+      ></app-reviews>
 
       <!--Второй пользователь-->
-
-      <div class="reviews_block">
-        <img alt="Аватар" class="avatar_reviews" src="img/customers/ben.jpg" />
-        <p class="reviews_user">
-          Алгоритм искусственного интеллекта просто потрясающий, он каждый раз выбирает для меня
-          правильные блюда. Удивительно, что больше не нужно беспокоиться о еде!
-        </p>
-        <p class="user_name">— Ben Hadley</p>
-      </div>
+      <app-reviews
+        img="img/customers/ben.jpg"
+        review="Алгоритм искусственного интеллекта просто потрясающий, он каждый раз выбирает для меня
+          правильные блюда. Удивительно, что больше не нужно беспокоиться о еде!"
+        username="— Ben Hadley"
+      ></app-reviews>
 
       <!--Третий пользователь-->
-
-      <div class="reviews_block">
-        <img alt="Аватар" class="avatar_reviews" src="img/customers/steve.jpg" />
-        <p class="reviews_user">
-          Omnifood — просто спасение! Я только что открыла компанию, поэтому у меня совсем нет
-          времени на готовку. Теперь я не могу жить без ежедневного питания!
-        </p>
-        <p class="user_name">— Steve Miller</p>
-      </div>
+      <app-reviews
+        img="img/customers/steve.jpg"
+        review="Omnifood — просто спасение! Я только что открыла компанию, поэтому у меня совсем нет
+          времени на готовку. Теперь я не могу жить без ежедневного питания!"
+        username="— Steve Miller"
+      ></app-reviews>
 
       <!--Четвёртый пользователь-->
-
-      <div class="reviews_block">
-        <img alt="Аватар" class="avatar_reviews" src="img/customers/hannah.jpg" />
-        <p class="reviews_user">
-          Я купила продукты Omnifood для всей семьи, и это сэкономило мне столько времени! К тому
-          же, все продукты органические, веганские и без пластика.
-        </p>
-        <p class="user_name">— Hannah Smith</p>
-      </div>
+      <app-reviews
+        img="img/customers/hannah.jpg"
+        review="Я купила продукты Omnifood для всей семьи, и это сэкономило мне столько времени! К тому
+          же, все продукты органические, веганские и без пластика."
+        username="— Hannah Smith"
+      ></app-reviews>
     </div>
   </article>
 
-  <!--Правая чать, галлерея-->
+  <!--Правая чаcть, галлерея-->
 
   <article class="img_gallery">
-    <img src="img/gallery/gallery-1.jpg" alt="Фотография наших блюд" class="gallery_pice" /><img
-      src="img/gallery/gallery-2.jpg"
-      alt="Фотография наших блюд"
-      class="gallery_pice"
-    /><img src="img/gallery/gallery-3.jpg" alt="Фотография наших блюд" class="gallery_pice" /><img
-      src="img/gallery/gallery-4.jpg"
-      alt="Фотография наших блюд"
-      class="gallery_pice"
-    /><img src="img/gallery/gallery-5.jpg" alt="Фотография наших блюд" class="gallery_pice" /><img
-      src="img/gallery/gallery-6.jpg"
-      alt="Фотография наших блюд"
-      class="gallery_pice"
-    /><img src="img/gallery/gallery-7.jpg" alt="Фотография наших блюд" class="gallery_pice" /><img
-      src="img/gallery/gallery-8.jpg"
-      alt="Фотография наших блюд"
-      class="gallery_pice"
-    /><img src="img/gallery/gallery-9.jpg" alt="Фотография наших блюд" class="gallery_pice" /><img
-      src="img/gallery/gallery-10.jpg"
-      alt="Фотография наших блюд"
-      class="gallery_pice"
-    /><img src="img/gallery/gallery-11.jpg" alt="Фотография наших блюд" class="gallery_pice" /><img
-      src="img/gallery/gallery-12.jpg"
-      alt="Фотография наших блюд"
-      class="gallery_pice"
-    />
+    <app-gallery-pice img="img/gallery/gallery-1.jpg"></app-gallery-pice>
+    <app-gallery-pice img="img/gallery/gallery-2.jpg"></app-gallery-pice>
+    <app-gallery-pice img="img/gallery/gallery-3.jpg"></app-gallery-pice>
+    <app-gallery-pice img="img/gallery/gallery-4.jpg"></app-gallery-pice>
+    <app-gallery-pice img="img/gallery/gallery-5.jpg"></app-gallery-pice>
+    <app-gallery-pice img="img/gallery/gallery-6.jpg"></app-gallery-pice>
+    <app-gallery-pice img="img/gallery/gallery-7.jpg"></app-gallery-pice>
+    <app-gallery-pice img="img/gallery/gallery-8.jpg"></app-gallery-pice>
+    <app-gallery-pice img="img/gallery/gallery-9.jpg"></app-gallery-pice>
+    <app-gallery-pice img="img/gallery/gallery-10.jpg"></app-gallery-pice>
+    <app-gallery-pice img="img/gallery/gallery-11.jpg"></app-gallery-pice>
+    <app-gallery-pice img="img/gallery/gallery-12.jpg"></app-gallery-pice>
   </article>
 </section>
