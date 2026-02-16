@@ -80,27 +80,27 @@ Omnifood - это веб-сайт для сервиса доставки здо�
     </th>
         <tr>
             <td>Performance Score</td>
-            <td></td>
+            <td>97</td>
             <td>> 90</td>
         </tr>
         <tr>
             <td>FCP</td>
-            <td></td>
+            <td>0,9 сек.</td>
             <td>< 1.8s</td>
         </tr>
         <tr>
             <td>LCP</td>
-            <td></td>
+            <td>1,0 сек.</td>
             <td>< 2.5s</td>
         </tr>
         <tr>
             <td>CLS</td>
-            <td></td>
+            <td>0,01</td>
             <td>< 0.1</td>
         </tr>
         <tr>
             <td>TBT</td>
-            <td></td>
+            <td>0 мс</td>
             <td>< 200ms</td>
         </tr>
 </table>
