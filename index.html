@@ -12,12 +12,17 @@
     <!--Хэдер-->
 
     <header>
-      <img
-        loading="lazy"
-        class="logo"
-        src="img/omnifood-logo.webp"
-        alt="Логотип"
-      />
+      <picture>
+        <source srcset="img/omnifood-logo-400.webp 400w,
+                        img/omnifood-logo-800.webp 800w,
+                        img/omnifood-logo-1200.webp 1200w"
+                type="image/webp"
+                sizes="200px">
+        <img loading="lazy"
+             class="logo"
+             src="img/omnifood-logo-800.webp"
+             alt="Логотип">
+      </picture>
       <nav class="header_right">
         <a href="#How_it_works" class="headname">Как это работает</a>
         <a href="#food_receps" class="headname">Рецепты</a>
@@ -94,12 +99,17 @@
             </div>
           </div>
           <div class="right_sec1">
-            <img
-              loading="lazy"
-              alt="Фотографии доставки"
-              class="img_deliv_grid"
-              src="img/hero.webp"
-            />
+            <picture>
+              <source srcset="img/hero-400.webp 400w,
+                              img/hero-800.webp 800w,
+                              img/hero-1200.webp 1200w"
+                      type="image/webp"
+                      sizes="100vw">
+              <img src="img/hero-800.webp" 
+                   alt="Фотографии доставки"
+                   loading="lazy"
+                   class="img_deliv_grid">
+            </picture>
           </div>
         </div>
       </section>
@@ -220,12 +230,17 @@
         </div>
         <div class="card_container_flex">
           <article class="card">
-            <img
-              loading="lazy"
-              alt="Японские Гёдза"
-              class="food_card"
-              src="img/meals/meal-1.webp"
-            />
+            <picture>
+              <source srcset="img/meals/meal-1-400.webp 400w,
+                              img/meals/meal-1-800.webp 800w,
+                              img/meals/meal-1-1200.webp 1200w"
+                      type="image/webp"
+                      sizes="(max-width: 768px) 100vw, 50vw">
+              <img src="img/meals/meal-1-800.webp" 
+                   alt="Японские Гёдза"
+                   loading="lazy"
+                   class="food_card">
+            </picture>
             <div class="cadr_full_info_conteiner">
               <div class="card_mark_conteiner">
                 <div class="card_mark green_big">Вегетарианское</div>
@@ -267,12 +282,17 @@
             </div>
           </article>
           <article class="card">
-            <img
-              loading="lazy"
-              alt="Салат с авокадо"
-              class="food_card"
-              src="img/meals/meal-2.webp"
-            />
+            <picture>
+              <source srcset="img/meals/meal-2-400.webp 400w,
+                              img/meals/meal-2-800.webp 800w,
+                              img/meals/meal-2-1200.webp 1200w"
+                      type="image/webp"
+                      sizes="(max-width: 768px) 100vw, 50vw">
+              <img src="img/meals/meal-2-800.webp" 
+                   alt="Салат с авокадо"
+                   loading="lazy"
+                   class="food_card">
+            </picture>
             <div class="cadr_full_info_conteiner">
               <div class="card_mark_conteiner">
                 <div class="card_mark lightgreen_medium">Веганское</div>
@@ -393,12 +413,18 @@
           </article>
 
           <article class="card">
+            <picture>
+            <source srcset="img/gallery/gallery-2-400.webp 400w,
+                            img/gallery/gallery-2-800.webp 800w,
+                            img/gallery/gallery-2-1200.webp 1200w"
+                    type="image/webp"
+                    sizes="(max-width: 768px) 100vw, 50vw">
             <img
               loading="lazy"
               alt="Стейк с базеликом"
               class="food_card"
               src="img/gallery/gallery-2.webp"
-            />
+            /></picture>
             <div class="cadr_full_info_conteiner">
               <div class="card_mark_conteiner">
                 <div class="card_mark red_medium">Мясное</div>
@@ -441,12 +467,18 @@
           </article>
 
           <article class="card">
+            <picture>
+            <source srcset="img/gallery/gallery-6-400.webp 400w,
+                            img/gallery/gallery-6-800.webp 800w,
+                            img/gallery/gallery-6-1200.webp 1200w"
+                    type="image/webp"
+                    sizes="(max-width: 768px) 100vw, 50vw">
             <img
               loading="lazy"
               alt="Овощной набор"
               class="food_card"
               src="img/gallery/gallery-6.webp"
-            />
+            /></picture>
             <div class="cadr_full_info_conteiner">
               <div class="card_mark_conteiner">
                 <div class="card_mark lightgreen_medium">Веганское</div>
@@ -580,67 +612,127 @@
         <!--Правая чать, галлерея-->
 
         <article class="img_gallery">
-          <img
-            loading="lazy"
-            src="img/gallery/gallery-1.webp"
-            alt="Фотография наших блюд"
-            class="gallery_pice"
-          /><img
-            loading="lazy"
-            src="img/gallery/gallery-2.webp"
-            alt="Фотография наших блюд"
-            class="gallery_pice"
-          /><img
-            loading="lazy"
-            src="img/gallery/gallery-3.webp"
-            alt="Фотография наших блюд"
-            class="gallery_pice"
-          /><img
-            loading="lazy"
-            src="img/gallery/gallery-4.webp"
-            alt="Фотография наших блюд"
-            class="gallery_pice"
-          /><img
-            loading="lazy"
-            src="img/gallery/gallery-5.webp"
-            alt="Фотография наших блюд"
-            class="gallery_pice"
-          /><img
-            loading="lazy"
-            src="img/gallery/gallery-6.webp"
-            alt="Фотография наших блюд"
-            class="gallery_pice"
-          /><img
-            loading="lazy"
-            src="img/gallery/gallery-7.webp"
-            alt="Фотография наших блюд"
-            class="gallery_pice"
-          /><img
-            loading="lazy"
-            src="img/gallery/gallery-8.webp"
-            alt="Фотография наших блюд"
-            class="gallery_pice"
-          /><img
-            loading="lazy"
-            src="img/gallery/gallery-9.webp"
-            alt="Фотография наших блюд"
-            class="gallery_pice"
-          /><img
-            loading="lazy"
-            src="img/gallery/gallery-10.webp"
-            alt="Фотография наших блюд"
-            class="gallery_pice"
-          /><img
-            loading="lazy"
-            src="img/gallery/gallery-11.webp"
-            alt="Фотография наших блюд"
-            class="gallery_pice"
-          /><img
-            loading="lazy"
-            src="img/gallery/gallery-12.webp"
-            alt="Фотография наших блюд"
-            class="gallery_pice"
-          />
+          <picture>
+            <source srcset="img/gallery/gallery-1-400.webp 400w,
+                            img/gallery/gallery-1-800.webp 800w,
+                            img/gallery/gallery-1-1200.webp 1200w"
+                    type="image/webp"
+                    sizes="33vw">
+            <img src="img/gallery/gallery-1-800.webp" 
+                 alt="Фотография наших блюд"
+                 loading="lazy"
+                 class="gallery_pice">
+          </picture><picture>
+            <source srcset="img/gallery/gallery-2-400.webp 400w,
+                            img/gallery/gallery-2-800.webp 800w,
+                            img/gallery/gallery-2-1200.webp 1200w"
+                    type="image/webp"
+                    sizes="33vw">
+            <img src="img/gallery/gallery-2-800.webp" 
+                 alt="Фотография наших блюд"
+                 loading="lazy"
+                 class="gallery_pice">
+          </picture><picture>
+            <source srcset="img/gallery/gallery-3-400.webp 400w,
+                            img/gallery/gallery-3-800.webp 800w,
+                            img/gallery/gallery-3-1200.webp 1200w"
+                    type="image/webp"
+                    sizes="33vw">
+            <img src="img/gallery/gallery-3-800.webp" 
+                 alt="Фотография наших блюд"
+                 loading="lazy"
+                 class="gallery_pice">
+          </picture><picture>
+            <source srcset="img/gallery/gallery-4-400.webp 400w,
+                            img/gallery/gallery-4-800.webp 800w,
+                            img/gallery/gallery-4-1200.webp 1200w"
+                    type="image/webp"
+                    sizes="33vw">
+            <img src="img/gallery/gallery-4-800.webp" 
+                 alt="Фотография наших блюд"
+                 loading="lazy"
+                 class="gallery_pice">
+          </picture><picture>
+            <source srcset="img/gallery/gallery-5-400.webp 400w,
+                            img/gallery/gallery-5-800.webp 800w,
+                            img/gallery/gallery-5-1200.webp 1200w"
+                    type="image/webp"
+                    sizes="33vw">
+            <img src="img/gallery/gallery-5-800.webp" 
+                 alt="Фотография наших блюд"
+                 loading="lazy"
+                 class="gallery_pice">
+          </picture><picture>
+            <source srcset="img/gallery/gallery-6-400.webp 400w,
+                            img/gallery/gallery-6-800.webp 800w,
+                            img/gallery/gallery-6-1200.webp 1200w"
+                    type="image/webp"
+                    sizes="33vw">
+            <img src="img/gallery/gallery-6-800.webp" 
+                 alt="Фотография наших блюд"
+                 loading="lazy"
+                 class="gallery_pice">
+          </picture><picture>
+            <source srcset="img/gallery/gallery-7-400.webp 400w,
+                            img/gallery/gallery-7-800.webp 800w,
+                            img/gallery/gallery-7-1200.webp 1200w"
+                    type="image/webp"
+                    sizes="33vw">
+            <img src="img/gallery/gallery-7-800.webp" 
+                 alt="Фотография наших блюд"
+                 loading="lazy"
+                 class="gallery_pice">
+          </picture><picture>
+            <source srcset="img/gallery/gallery-8-400.webp 400w,
+                            img/gallery/gallery-8-800.webp 800w,
+                            img/gallery/gallery-8-1200.webp 1200w"
+                    type="image/webp"
+                    sizes="33vw">
+            <img src="img/gallery/gallery-8-800.webp" 
+                 alt="Фотография наших блюд"
+                 loading="lazy"
+                 class="gallery_pice">
+          </picture><picture>
+            <source srcset="img/gallery/gallery-9-400.webp 400w,
+                            img/gallery/gallery-9-800.webp 800w,
+                            img/gallery/gallery-9-1200.webp 1200w"
+                    type="image/webp"
+                    sizes="33vw">
+            <img src="img/gallery/gallery-9-800.webp" 
+                 alt="Фотография наших блюд"
+                 loading="lazy"
+                 class="gallery_pice">
+          </picture><picture>
+            <source srcset="img/gallery/gallery-10-400.webp 400w,
+                            img/gallery/gallery-10-800.webp 800w,
+                            img/gallery/gallery-10-1200.webp 1200w"
+                    type="image/webp"
+                    sizes="33vw">
+            <img src="img/gallery/gallery-10-800.webp" 
+                 alt="Фотография наших блюд"
+                 loading="lazy"
+                 class="gallery_pice">
+          </picture><picture>
+            <source srcset="img/gallery/gallery-11-400.webp 400w,
+                            img/gallery/gallery-11-800.webp 800w,
+                            img/gallery/gallery-11-1200.webp 1200w"
+                    type="image/webp"
+                    sizes="33vw">
+            <img src="img/gallery/gallery-11-800.webp" 
+                 alt="Фотография наших блюд"
+                 loading="lazy"
+                 class="gallery_pice">
+          </picture><picture>
+            <source srcset="img/gallery/gallery-12-400.webp 400w,
+                            img/gallery/gallery-12-800.webp 800w,
+                            img/gallery/gallery-12-1200.webp 1200w"
+                    type="image/webp"
+                    sizes="33vw">
+            <img src="img/gallery/gallery-12-800.webp" 
+                 alt="Фотография наших блюд"
+                 loading="lazy"
+                 class="gallery_pice">
+          </picture>
         </article>
       </section>
 
@@ -915,12 +1007,17 @@
 
           <!--Правый блок формы, изображение-->
           <div class="form_right_block">
-            <img
-              loading="lazy"
-              alt="Фото баннера"
-              class="form_img"
-              src="img/eating.webp"
-            />
+            <picture>
+              <source srcset="img/eating-400.webp 400w,
+                              img/eating-800.webp 800w,
+                              img/eating-1200.webp 1200w"
+                      type="image/webp"
+                      sizes="(max-width: 768px) 100vw, 50vw">
+              <img src="img/eating-800.webp" 
+                   alt="Фото баннера"
+                   loading="lazy"
+                   class="form_img">
+            </picture>
           </div>
         </article>
       </section>
@@ -932,12 +1029,17 @@
         <!--Первая колонка-->
 
         <div class="footer_column">
-          <img
-            loading="lazy"
-            alt="Логотип"
-            class="logo"
-            src="img/omnifood-logo.webp"
-          />
+          <picture>
+            <source srcset="img/omnifood-logo-400.webp 400w,
+                            img/omnifood-logo-800.webp 800w,
+                            img/omnifood-logo-1200.webp 1200w"
+                    type="image/webp"
+                    sizes="200px">
+            <img loading="lazy"
+                 alt="Логотип"
+                 class="logo"
+                 src="img/omnifood-logo-800.webp">
+          </picture>
           <div class="footer_icons">
             <img
               loading="lazy"
