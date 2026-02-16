@@ -366,7 +366,7 @@ button:active {
 	height: 37.941rem;
 	position: relative;
 	display: block;
-	overflow: visible;
+	overflow: hidden;
 }
 .smartphone_container::after,
 .smartphone_container::before {
