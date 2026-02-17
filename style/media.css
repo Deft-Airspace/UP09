@@ -51,6 +51,7 @@
   .footer_text_16px {
     text-wrap: wrap;
     width: 15.3rem;
+    height: max-content;
   }
 }
 
