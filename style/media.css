@@ -323,4 +323,283 @@
 	}
 
 	/*Галлерея*/
+
+	.presents_text_zag {
+		font-size: 1.4rem;
+		line-height: 1.4rem;
+	}
+	.presents_zag {
+		font-size: 3.2rem;
+		line-height: 3.8rem;
+		height: max-content;
+		width: 50rem;
+	}
+	.reviews_grid_2row_2col {
+		width: 50rem;
+		gap: 1.5rem;
+		height: max-content;
+	}
+	.reviews_block {
+		width: 21.6rem;
+		height: max-content;
+	}
+	.reviews_user {
+		font-size: 1.6rem;
+		line-height: 2.9rem;
+	}
+	.user_name {
+		font-size: 1.4rem;
+		line-height: 1.4rem;
+	}
+	.left_presents {
+		width: 62rem;
+		padding: 4rem;
+	}
+	.img_gallery {
+		width: 38rem;
+		height: max-content;
+		grid-template-columns: repeat(2, 18rem);
+		grid-template-rows: repeat(6, 18rem);
+		gap: 1.3rem;
+	}
+	.gallery_pice {
+		width: 18rem;
+		height: 18rem;
+		gap: 1rem;
+		&:hover {
+			transform: scale(125%);
+		}
+	}
+	.presents_company {
+		display: flex;
+		flex-direction: row;
+		gap: 0;
+		height: max-content;
+		padding: 2rem 0;
+	}
+	.cost_zag_container {
+		width: 100rem;
+	}
+	.cost_text_zag {
+		font-size: 1.4rem;
+		line-height: 1.4rem;
+	}
+	.cost_zag {
+		font-size: 3.2rem;
+		line-height: 3.8rem;
+	}
+	.cost_card_container {
+		width: inherit;
+		padding: 0 14rem;
+		gap: 2rem;
+	}
+	.cost_card {
+		width: 34.6rem;
+		height: 56.4rem;
+		gap: 3rem;
+	}
+	.cost_card_pice_one {
+		width: 25.9rem;
+		height: 16.3rem;
+	}
+	.text_zag_card {
+		font-size: 1.8rem;
+		line-height: 1.8rem;
+	}
+	.symphol {
+		font-size: 2.7rem;
+		line-height: 2.7rem;
+		padding: 0.25rem 0;
+	}
+	.cost_zag_card {
+		font-size: 5.5rem;
+		line-height: 5.5rem;
+	}
+	.reviews_cost {
+		width: 25.9rem;
+		font-size: 1.4rem;
+		line-height: 2.3rem;
+	}
+	.cost_info_list {
+		width: 25.9rem;
+	}
+	.cost_info_list ul {
+		gap: 1.8rem;
+	}
+	.cost_info_list li {
+		font-size: 1.6rem;
+		line-height: 1.9rem;
+		align-items: center;
+	}
+	.cost_info_list picture {
+		display: flex;
+		align-items: center;
+	}
+	.cost_card_button {
+		width: 25.9rem;
+		height: 6.4rem;
+		padding: 1.4rem 0.4rem;
+		font-size: 1.8rem;
+		line-height: 1.8rem;
+	}
+	.two_card::after {
+		content: 'Best value';
+		position: relative;
+		top: -49.4rem;
+		right: -11.4rem;
+		font-weight: 700;
+		font-style: Bold;
+		font-size: 1.26rem;
+		line-height: 1.26rem;
+		letter-spacing: 0%;
+		vertical-align: middle;
+		text-transform: uppercase;
+		color: var(--black-h);
+		width: 22rem;
+		height: 2.6rem;
+		padding: 0.619rem 7.2rem;
+		background-color: var(--yellow-color-card-mark);
+		text-align: center;
+		rotate: 45deg;
+	}
+	.cost_text_info {
+		width: 100rem;
+		height: 2.3rem;
+		font-size: 1.4rem;
+		line-height: 2.3rem;
+	}
+	.mark_block_cost_container {
+		width: inherit;
+		height: 31.3rem;
+		padding: 0 2.8rem;
+		gap: 4.3rem;
+	}
+	.mark_cost {
+		width: 20.9rem;
+		height: 31.3rem;
+		gap: 1.4rem;
+	}
+	.mark_cost_img {
+		width: 5.7rem;
+		height: 5.7rem;
+	}
+	.mark_cost_zag {
+		height: max-content;
+		font-size: 2.1rem;
+		line-height: 2.1rem;
+	}
+	.mark_cost_info {
+		height: max-content;
+		font-size: 1.6rem;
+		line-height: 2.9rem;
+	}
+	.for_registr_form {
+		height: 80rem;
+	}
+	.registr_form_block {
+		width: 96.6rem;
+		height: 53.6rem;
+	}
+	.registr_left_text_block {
+		width: 64.4rem;
+		height: 53.6rem;
+		padding: 4.2rem 5.7rem 5.7rem 5.7rem;
+		gap: 2.8rem;
+	}
+	.registr_zag {
+		width: 52.9rem;
+		height: 7.8rem;
+		font-size: 3.2rem;
+		line-height: 3.8rem;
+	}
+	.registr_text {
+		width: 52.9rem;
+		height: 11.7rem;
+		font-size: 1.62rem;
+		line-height: 2.9rem;
+	}
+	.input_form_grid {
+		width: 52.9rem;
+		height: 18.3rem;
+		gap: 2rem;
+	}
+	.form_grid_pice {
+		width: 25rem;
+		height: 8.5rem;
+		gap: 1rem;
+	}
+	.form_grid_zag {
+		height: min-content;
+		font-size: 1.4rem;
+		line-height: 1.4rem;
+	}
+	.registr_form_input {
+		width: 25rem;
+		height: 4rem;
+	}
+	.registr_form_button {
+		width: 25rem;
+		height: 4rem;
+		padding: 0rem 7.67rem;
+		font-size: 1.8rem;
+		line-height: 100%;
+	}
+	.form_img,
+	.form_right_block {
+		width: 32.2rem;
+		height: 54.6rem;
+	}
+	.footer_conteiner {
+		width: inherit;
+		height: 18.9rem;
+		gap: 4.3rem;
+		padding: 0 2.8rem;
+	}
+	.footer_column {
+		width: 19.2rem;
+
+		gap: 2rem;
+	}
+	.footer_small_column {
+		width: 12.848rem;
+	}
+	.footer_medium_column {
+		width: 15.128rem;
+	}
+	.footer_medium_column,
+	.footer_small_column {
+		gap: 2.7rem;
+	}
+	.footer_icons_img {
+		width: 2.2rem;
+		height: 2.2rem;
+	}
+	.footer_icons {
+		height: 2.5rem;
+		gap: 2.1rem;
+	}
+	.footer_text {
+		height: 6.1rem;
+		font-size: 1.26rem;
+		line-height: 2.016rem;
+	}
+	.footer_column_zag {
+		height: 1.7rem;
+		font-size: 1.62rem;
+		line-height: 1.62rem;
+	}
+	.footer_adres {
+		height: 4.6rem;
+		font-size: 1.44rem;
+		line-height: 2.3rem;
+	}
+	.footer_contacts {
+		height: 4.5rem;
+		font-size: 1.44rem;
+		line-height: 2.3rem;
+	}
+	.footer_text_16px {
+		font-size: 1.44rem;
+		line-height: 1.44rem;
+	}
 }
