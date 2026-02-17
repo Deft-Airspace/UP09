@@ -48,6 +48,10 @@
   .mark_cost_zag {
     height: max-content;
   }
+  .footer_text_16px {
+    text-wrap: wrap;
+    width: 15.3rem;
+  }
 }
 
 /*Под разрешение 1024px*/
