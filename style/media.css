@@ -100,7 +100,7 @@
   }
   .sec1_but_cont {
     flex-direction: column;
-    gap: 0.4rem;
+    gap: 1rem;
   }
   .sec1_but_cont .a_button:nth-child(2) {
     margin-left: -1.6rem;
