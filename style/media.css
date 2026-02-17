@@ -415,6 +415,9 @@
 		width: 34.6rem;
 		height: 56.4rem;
 		gap: 3rem;
+		&:hover {
+			transform: scale(105%);
+		}
 	}
 	.cost_card_pice_one {
 		width: 25.9rem;
