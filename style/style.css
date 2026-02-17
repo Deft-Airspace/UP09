@@ -196,6 +196,7 @@ button:active {
 	padding-left: 1.9rem;
 }
 .img_deliv_grid {
+	object-fit: cover;
 	width: 57rem;
 	height: 56.2rem;
 }
