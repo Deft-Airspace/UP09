@@ -1,0 +1,137 @@
+/*Под разрешение 1400px*/
+@media (max-width: 1400px) {
+  header,
+  main,
+  footer {
+    max-width: 1400px;
+  }
+  html {
+    font-size: 10px;
+  }
+  .img_deliv_grid {
+    width: 50rem;
+    height: 50rem;
+  }
+  .presents_company {
+    align-items: center;
+    gap: 16rem;
+    height: 130rem;
+  }
+  .left_presents {
+    width: 70rem;
+    margin-top: 0;
+  }
+  .presents_reviews_conteiner {
+    width: 50rem;
+  }
+  .presents_zag {
+    width: 58rem;
+  }
+  .reviews_grid_2row_2col {
+    margin-top: 4rem;
+    gap: 4rem;
+  }
+  .reviews_block {
+    width: 23rem;
+  }
+
+  .img_gallery {
+    width: 50rem;
+    height: 67rem;
+    grid-template-columns: repeat(3, 15rem);
+    grid-template-rows: repeat(4, 15rem);
+  }
+  .gallery_pice {
+    width: 15rem;
+    height: 15rem;
+  }
+  .mark_cost_zag {
+    height: max-content;
+  }
+}
+
+/*Под разрешение 1024px*/
+
+@media (max-width: 1024px) {
+  header,
+  main,
+  footer {
+    max-width: 1024px;
+  }
+  html {
+    font-size: 10px;
+  }
+  header {
+    padding: 0 3rem;
+  }
+  .headname {
+    font-size: 1.6rem;
+  }
+  .header_right {
+    gap: 2rem;
+    width: max-content;
+  }
+  .healthy_food_dilevery {
+    height: 80rem;
+  }
+  .left_sec1 {
+    width: 46rem;
+    height: 70rem;
+  }
+  .deliver {
+    font-size: 3.9rem;
+    width: inherit;
+  }
+  .img_deliv_grid {
+    width: 42rem;
+    height: 42rem;
+  }
+  .container {
+    max-width: 100rem;
+    height: max-content;
+  }
+  .grid_sec1 {
+    grid-template-columns: 48% 52%;
+  }
+  .sec1_but_cont {
+    flex-direction: column;
+    gap: 0.4rem;
+  }
+  .sec1_but_cont .a_button:nth-child(2) {
+    margin-left: -1.6rem;
+  }
+  .sec1_but {
+    margin-top: 0;
+  }
+  .avatar {
+    width: 4.3rem;
+    height: 4.3rem;
+  }
+  .sec1_p {
+    text-wrap: wrap;
+    font-size: 1.6rem;
+    line-height: 1.6rem;
+  }
+  .img_av {
+    text-wrap: nowrap;
+  }
+  .avatar_and_text {
+    margin-top: 7rem;
+    width: 46rem;
+  }
+  .about,
+  .company_container {
+    width: 95rem;
+  }
+  .company_container {
+    gap: 3rem;
+    padding: 0;
+  }
+  .logos_company {
+    height: 3rem;
+  }
+  .flex_col_sec2 {
+    height: 8rem;
+    margin-left: 2rem;
+  }
+}
