@@ -69,6 +69,10 @@
 	header {
 		padding: 0 3rem;
 	}
+	.container {
+		max-width: 100rem;
+		gap: 5.3rem;
+	}
 	.headname {
 		font-size: 1.6rem;
 	}
@@ -476,8 +480,11 @@
 		text-align: center;
 		rotate: 45deg;
 	}
-	.cost_text_info {
+	.cost_info_under_card {
 		width: 100rem;
+	}
+	.cost_text_info {
+		width: 90rem;
 		height: 2.3rem;
 		font-size: 1.4rem;
 		line-height: 2.3rem;
