@@ -530,7 +530,7 @@ button:active {
 	flex-direction: column;
 	height: 28rem;
 	padding: 3.2rem 4.8rem 4.8rem 4.8rem;
-	gap: 12px;
+	gap: 1.2rem;
 }
 .card_mark_conteiner {
 	width: 24rem;
