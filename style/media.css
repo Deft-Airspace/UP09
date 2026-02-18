@@ -640,9 +640,7 @@
 	footer {
 		max-width: 76.8rem;
 	}
-	body {
-		overflow-x: hidden;
-	}
+
 	header {
 		height: 6.4rem;
 		position: sticky;
