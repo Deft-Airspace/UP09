@@ -102,7 +102,7 @@
 		height: 4.68rem;
 	}
 	.header_right,
-	aside {
+	.burg_cont {
 		gap: 2rem;
 		width: max-content;
 	}
@@ -653,7 +653,7 @@
 		width: 13rem;
 		height: 1.8rem;
 	}
-	aside {
+	.burg_cont {
 		display: none;
 	}
 	button {
@@ -677,7 +677,7 @@
 			justify-content: center;
 		}
 	}
-	.header_right:hover aside {
+	.header_right:hover .burg_cont {
 		display: flex;
 		flex-direction: column;
 		background-color: var(--button-text-or-fon-color);
