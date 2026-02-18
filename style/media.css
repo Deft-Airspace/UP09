@@ -14,6 +14,12 @@
 		gap: 16rem;
 		height: 130rem;
 	}
+	button {
+		transition: 0.01s ease-out;
+	}
+	button:active {
+		transition: 0.01s ease-in;
+	}
 	.left_presents {
 		width: 70rem;
 		margin-top: 0;
@@ -75,6 +81,12 @@
 		width: 14.92rem;
 		height: 3.78rem;
 		padding: 1rem 2.16rem;
+	}
+	button {
+		transition: 0.01s ease-out;
+	}
+	button:active {
+		transition: 0.01s ease-in;
 	}
 	.sec1_but {
 		font-size: 1.8rem;
@@ -169,7 +181,7 @@
 		width: 40rem;
 	}
 	.one_case {
-		margin-bottom: 6rem;
+		margin-bottom: 0;
 	}
 	.number {
 		font-size: 7.7rem;
@@ -628,6 +640,9 @@
 	footer {
 		max-width: 76.8rem;
 	}
+	body {
+		overflow-x: hidden;
+	}
 	header {
 		height: 6.4rem;
 		position: sticky;
@@ -657,6 +672,8 @@
 			content: url(../img/icons/burger.svg);
 			width: 4rem;
 			height: 4rem;
+			position: relative;
+			z-index: 202;
 			display: flex;
 			align-items: center;
 			justify-content: center;
@@ -668,22 +685,29 @@
 		background-color: var(--button-text-or-fon-color);
 		gap: 3rem;
 		width: 20rem;
-		height: 25rem;
+		height: 27rem;
 		z-index: 300;
 		position: absolute;
+		z-index: 190;
 		padding: 2rem;
+		padding-top: 5rem;
 		border: none;
 		border-radius: 0rem 0rem 1rem 1rem;
-		top: 5rem;
+		top: 1rem;
 		right: -3rem;
 	}
 	.headname {
 		font-size: 1.4rem;
 		line-height: 1.4rem;
 	}
+	.healthy_doz_info {
+		padding: 6.299rem 0 3.84rem 0;
+		gap: 7.68rem;
+	}
 	.healthy_food_dilevery {
 		width: 76.8rem;
 		height: 84.1rem;
+		padding: 2.8rem 5rem 7.6rem 5rem;
 	}
 	.grid_sec1 {
 		display: flex;
@@ -812,11 +836,12 @@
 	}
 	.healthy_doz_block2_grid_row3_col2 {
 		gap: 1.2rem;
+		grid-template-rows: repeat(3, 33.2rem);
 		align-items: center;
 		justify-content: center;
 	}
 	.one_case {
-		margin-bottom: 6rem;
+		margin-bottom: -2rem;
 	}
 	.smartphone_container {
 		width: 33.922rem;
@@ -832,7 +857,7 @@
 		height: 15.2rem;
 		border-radius: 50%;
 		background-color: var(--back-circle);
-		top: 139rem;
+		top: 130rem;
 		z-index: -1;
 	}
 	.smartphone_container:nth-child(3):before {
@@ -841,7 +866,7 @@
 		height: 15.2rem;
 		border-radius: 50%;
 		background-color: var(--back-circle);
-		top: 179rem;
+		top: 165rem;
 		z-index: -1;
 	}
 	.smartphone_container:nth-child(6):before {
@@ -850,7 +875,7 @@
 		height: 15.2rem;
 		border-radius: 50%;
 		background-color: var(--back-circle);
-		top: 212rem;
+		top: 200rem;
 		z-index: -1;
 	}
 	.smartphone_container:nth-child(2)::after {
@@ -859,7 +884,7 @@
 		height: 20rem;
 		border-radius: 50%;
 		background-color: var(--front-circle);
-		top: 136.6rem;
+		top: 127.6rem;
 		z-index: -2;
 	}
 	.smartphone_container:nth-child(3)::after {
@@ -868,7 +893,7 @@
 		height: 20rem;
 		border-radius: 50%;
 		background-color: var(--front-circle);
-		top: 176.6rem;
+		top: 162.6rem;
 		z-index: -2;
 	}
 	.smartphone_container:nth-child(6)::after {
@@ -877,7 +902,7 @@
 		height: 20rem;
 		border-radius: 50%;
 		background-color: var(--front-circle);
-		top: 209.6rem;
+		top: 197.6rem;
 		z-index: -2;
 	}
 	.system_ai {
@@ -1003,25 +1028,25 @@
 		gap: 0;
 	}
 	.left_presents {
-		width: 71.68rem;
+		width: 70rem;
 		height: 74.781rem;
 		padding: 7.6rem 2.56rem;
 		gap: 1.21rem;
 	}
 	.presents_text_zag {
-		width: 71.68rem;
+		width: 70rem;
 		height: 1.38rem;
 		font-size: 1.28rem;
 		line-height: 1.28rem;
 	}
 	.presents_zag {
-		width: 71.68rem;
+		width: 70rem;
 		height: 7rem;
 		font-size: 2.88rem;
 		line-height: 3.456rem;
 	}
 	.reviews_grid_2row_2col {
-		width: 71.68rem;
+		width: 70rem;
 		height: 48.722rem;
 		justify-content: center;
 	}
@@ -1252,6 +1277,7 @@
 	}
 	.footer_column {
 		width: 14.3rem;
+		gap: 2rem;
 	}
 	.footer_small_column {
 		width: 10.2rem;
