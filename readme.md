@@ -117,22 +117,22 @@ Omnifood - это веб-сайт для сервиса доставки здо�
     </th>
         <tr>
             <td>Performance Score</td>
-            <td>100</td>
+            <td>97</td>
             <td>> 90</td>
         </tr>
         <tr>
             <td>FCP</td>
-            <td>0,7 сек.</td>
+            <td>1,8 сек.</td>
             <td>< 1.8s</td>
         </tr>
         <tr>
             <td>LCP</td>
-            <td>0,7 сек.</td>
+            <td>2,3 сек.</td>
             <td>< 2.5s</td>
         </tr>
         <tr>
             <td>CLS</td>
-            <td>0,007</td>
+            <td>0</td>
             <td>< 0.1</td>
         </tr>
         <tr>
