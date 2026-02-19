@@ -1381,6 +1381,7 @@ footer {
 	width: inherit;
 	height: 5.16rem;
 	display: flex;
+	gap: 1.6rem;
 	flex-direction: column;
 	font-weight: 400;
 	font-style: normal;

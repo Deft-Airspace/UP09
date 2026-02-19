@@ -624,6 +624,7 @@
 	.footer_contacts {
 		height: 4.5rem;
 		font-size: 1.44rem;
+		gap: 1rem;
 		line-height: 2.3rem;
 	}
 	.footer_text_16px {
@@ -1999,6 +2000,7 @@
 	}
 	.footer_contacts {
 		height: 4.147rem;
+		gap: 0.6rem;
 		font-size: 1.28rem;
 		line-height: 2.048rem;
 	}
