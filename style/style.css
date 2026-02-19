@@ -173,9 +173,8 @@ button:active {
 	margin-left: -2rem;
 	transition: 0.2s ease-in;
 	&:hover {
-		transform: scale(130%);
-		margin-left: -1rem;
-		margin-right: 1rem;
+		transform: scale(110%) translateY(-0.6rem);
+
 		filter: drop-shadow(0 0 1rem);
 		transition: 0.5s ease-in-out;
 	}
@@ -275,7 +274,6 @@ button:active {
 	align-items: center;
 	width: 120rem;
 	height: 8.5rem;
-	max-width: 120rem;
 	padding: 0rem 3.2rem 0rem 3.2rem;
 	gap: 1.6rem;
 }
@@ -460,7 +458,7 @@ button:active {
 .system_text_container {
 	width: 120rem;
 	height: 13.74rem;
-	max-width: 120rem;
+
 	justify-content: space-between;
 	display: flex;
 	flex-direction: column;
@@ -501,7 +499,7 @@ button:active {
 	flex-direction: row;
 	flex-wrap: wrap;
 	height: max-content;
-	max-width: 120rem;
+
 	padding: 0rem 3.2rem;
 	gap: 6.4rem;
 }
@@ -681,7 +679,7 @@ button:active {
 .a_conteiner {
 	width: 120rem;
 	height: 2.1rem;
-	max-width: 120rem;
+
 	padding: 0 3.2rem;
 	display: flex;
 	justify-content: center;
@@ -857,7 +855,7 @@ button:active {
 .cost_zag_container {
 	width: 120rem;
 	height: 8.5rem;
-	max-width: 120rem;
+
 	margin-top: 9.6rem;
 	display: flex;
 	flex-direction: column;
@@ -891,7 +889,7 @@ button:active {
 .cost_card_container {
 	width: 120rem;
 	height: 64.638rem;
-	max-width: 120rem;
+
 	padding: 0 16.6rem;
 	display: flex;
 	gap: 7rem;
@@ -1087,7 +1085,7 @@ button:active {
 .mark_block_cost_container {
 	width: 120rem;
 	height: 34.795rem;
-	max-width: 120rem;
+
 	padding: 0 3.2rem;
 	display: flex;
 	gap: 6.4rem;
@@ -1293,7 +1291,6 @@ footer {
 .footer_conteiner {
 	width: 120rem;
 	height: 21.1rem;
-	max-width: 120rem;
 	padding: 0 3.2rem;
 	display: flex;
 	flex-direction: row;
