@@ -1371,9 +1371,7 @@
 		height: max-content;
 		align-items: center;
 	}
-	.sec1_but_cont .a_button:nth-child(2) {
-		margin-left: 9rem;
-	}
+
 	.avatar_and_text {
 		width: inherit;
 		height: 3.839rem;
@@ -1389,7 +1387,7 @@
 		height: 5.44rem;
 	}
 	.white_but.sec1_but {
-		width: 12.76rem;
+		width: 20rem;
 		height: 5.44rem;
 	}
 	.avatar {
