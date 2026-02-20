@@ -7,8 +7,17 @@
 			name="description"
 			content="Omnifood: здоровая еда с доставкой каждый день. Персонализированные планы питания AI, 5000+ рецептов для любой диеты. Первый обед бесплатно! Цены от 3990₽/мес."
 		/>
-		<link rel="stylesheet" href="style/all.css" />
 
+		<link
+			rel="preload"
+			href="style/all.css"
+			as="style"
+			onload="
+				this.onload = null
+				this.rel = 'stylesheet'
+			"
+		/>
+		<noscript><link rel="stylesheet" href="style/all.css" /></noscript>
 		<link rel="icon" href="img/mark/favicon.webp" />
 		<link rel="preload" href="img/hero.webp" as="image" />
 		<link rel="preload" href="img/eating.webp" as="image" />
