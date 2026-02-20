@@ -73,7 +73,7 @@ aside,
 	font-weight: 500;
 	font-size: 1.8rem;
 	line-height: 1.8rem;
-
+	letter-spacing: 0%;
 	font-style: normal;
 	color: var(--black-h);
 	text-decoration: none;
@@ -101,21 +101,19 @@ button:active {
 .orange_but {
 	width: 16.6rem;
 	height: 4.2rem;
-	padding: 1.2rem 2.4rem 1.2rem 2.4rem;
-	border: none;
 	border-radius: 0.9rem;
+	padding: 1.2rem 2.4rem 1.2rem 2.4rem;
 	background-color: var(--button-color);
+	border: none;
 	color: var(--button-text-or-fon-color);
 	font-style: normal;
 }
 .sec1_but {
 	font-weight: 600;
-
+	font-style: Bold;
 	font-size: 2rem;
-	border: none;
-	border-radius: 0.9rem;
 	line-height: 1rem;
-
+	letter-spacing: 0%;
 	text-wrap: nowrap;
 	width: 34.6rem;
 	height: 5.2rem;
@@ -123,6 +121,8 @@ button:active {
 }
 .white_but {
 	background-color: var(--button-text-or-fon-color);
+	border-radius: 0.9rem;
+	border: none;
 	width: 19.1rem;
 	height: 5.2rem;
 }
@@ -139,7 +139,7 @@ button:active {
 	font-size: 5.2rem;
 	line-height: 5.46rem;
 	letter-spacing: -0.5px;
-
+	font-style: bold;
 	color: var(--black-h);
 	margin-top: -0.06rem;
 }
@@ -148,7 +148,7 @@ button:active {
 	font-style: normal;
 	font-size: 2rem;
 	line-height: 3.2rem;
-
+	letter-spacing: 0%;
 	vertical-align: middle;
 	color: var(--gray-info);
 	margin-top: 4.5rem;
@@ -182,10 +182,11 @@ button:active {
 .text-color-orange {
 	color: var(--text-color-orange);
 	font-weight: 600;
+	font-style: Bold;
 }
 .sec1_p {
 	font-weight: 700;
-
+	font-style: Bold;
 	font-size: 1.8rem;
 	line-height: 1.8rem;
 	vertical-align: middle;
@@ -293,7 +294,7 @@ button:active {
 	width: 113.6rem;
 	height: 5.3rem;
 	font-weight: 700;
-
+	font-style: bold;
 	font-size: 4.4rem;
 	line-height: 5.28rem;
 	letter-spacing: -0.05rem;
@@ -333,10 +334,10 @@ button:active {
 	height: 8.6rem;
 	font-family: 'Rubik';
 	font-weight: 600;
-
+	font-style: Bold;
 	font-size: 8.6rem;
 	line-height: 8.6rem;
-
+	letter-spacing: 0%;
 	vertical-align: middle;
 	text-align: left;
 	color: var(--case-h-color-gray);
@@ -346,7 +347,7 @@ button:active {
 	height: 7.2rem;
 	font-family: 'Rubik';
 	font-weight: 700;
-
+	font-style: Bold;
 	font-size: 3rem;
 	line-height: 3.6rem;
 	letter-spacing: -0.05rem;
@@ -361,7 +362,7 @@ button:active {
 	font-style: normal;
 	font-size: 1.8rem;
 	line-height: 3.24rem;
-
+	letter-spacing: 0%;
 	vertical-align: middle;
 	color: var(--gray-info);
 }
@@ -481,7 +482,7 @@ button:active {
 	height: 10.6rem;
 	font-family: 'Rubik';
 	font-weight: 700;
-
+	font-style: bold;
 	font-size: 4.4rem;
 	line-height: 5.28rem;
 	letter-spacing: -0.05rem;
@@ -552,10 +553,10 @@ button:active {
 	color: var(--black-h);
 	font-family: 'Rubik';
 	font-weight: 600;
-
+	font-style: Bold;
 	font-size: 1.2rem;
 	line-height: 1.2rem;
-
+	letter-spacing: 0%;
 	vertical-align: middle;
 	text-align: center;
 	text-transform: uppercase;
@@ -584,10 +585,10 @@ button:active {
 	height: 2.4rem;
 	font-family: 'Rubik';
 	font-weight: 600;
-
+	font-style: Bold;
 	font-size: 2.4rem;
 	line-height: 2.4rem;
-
+	letter-spacing: 0%;
 	vertical-align: middle;
 	color: var(--black-h);
 }
@@ -622,7 +623,7 @@ button:active {
 	font-style: Medium;
 	font-size: 1.8rem;
 	line-height: 1.8rem;
-
+	letter-spacing: 0%;
 	vertical-align: middle;
 	color: var(--gray-info);
 }
@@ -638,7 +639,7 @@ button:active {
 	height: 7.2rem;
 	font-family: 'Rubik';
 	font-weight: 700;
-
+	font-style: Bold;
 	font-size: 3rem;
 	line-height: 3.6rem;
 	letter-spacing: -0.05rem;
@@ -663,7 +664,7 @@ button:active {
 	font-style: normal;
 	font-size: 1.8rem;
 	line-height: 2.16rem;
-
+	letter-spacing: 0%;
 	vertical-align: middle;
 	color: var(--gray-info);
 	list-style: none;
@@ -691,7 +692,7 @@ button:active {
 	font-style: normal;
 	font-size: 1.8rem;
 	line-height: 1.8rem;
-
+	letter-spacing: 0%;
 	text-align: center;
 	vertical-align: middle;
 	color: var(--button-color);
@@ -745,7 +746,7 @@ button:active {
 	width: 86.4rem;
 	height: 10.6rem;
 	font-weight: 700;
-
+	font-style: bold;
 	font-size: 4.4rem;
 	line-height: 5.28rem;
 	letter-spacing: -0.05rem;
@@ -789,7 +790,7 @@ button:active {
 	font-style: normal;
 	font-size: 1.8rem;
 	line-height: 3.24rem;
-
+	letter-spacing: 0%;
 	vertical-align: middle;
 	color: var(--gray-info);
 }
@@ -801,7 +802,7 @@ button:active {
 	font-style: normal;
 	font-size: 1.6rem;
 	line-height: 1.6rem;
-
+	letter-spacing: 0%;
 	vertical-align: middle;
 	color: var(--user-name-color);
 }
@@ -878,7 +879,7 @@ button:active {
 	height: 5.3rem;
 	font-family: 'Rubik';
 	font-weight: 700;
-
+	font-style: Bold;
 	font-size: 4.4rem;
 	line-height: 5.28rem;
 	letter-spacing: -0.05rem;
@@ -929,10 +930,10 @@ button:active {
 	height: 2rem;
 	font-family: 'Rubik';
 	font-weight: 600;
-
+	font-style: Bold;
 	font-size: 2rem;
 	line-height: 2rem;
-
+	letter-spacing: 0%;
 	text-align: center;
 	vertical-align: middle;
 	text-transform: uppercase;
@@ -954,7 +955,7 @@ button:active {
 	font-style: normal;
 	font-size: 3rem;
 	line-height: 3rem;
-
+	letter-spacing: 0%;
 	text-align: center;
 	vertical-align: middle;
 	color: var(--black-h);
@@ -966,10 +967,10 @@ button:active {
 	height: 6.2rem;
 	font-family: 'Rubik';
 	font-weight: 600;
-
+	font-style: Bold;
 	font-size: 5.2rem;
 	line-height: 5.2rem;
-
+	letter-spacing: 0%;
 	text-align: center;
 	vertical-align: middle;
 	color: var(--black-h);
@@ -982,7 +983,7 @@ button:active {
 	font-style: normal;
 	font-size: 1.6rem;
 	line-height: 2.56rem;
-
+	letter-spacing: 0%;
 	text-align: center;
 	vertical-align: middle;
 	color: var(--user-name-color);
@@ -1009,7 +1010,7 @@ button:active {
 	font-style: normal;
 	font-size: 1.8rem;
 	line-height: 2.16rem;
-
+	letter-spacing: 0%;
 	vertical-align: middle;
 	color: var(--gray-info);
 }
@@ -1025,10 +1026,10 @@ button:active {
 	padding: 1.6rem 0.8rem;
 	background-color: var(--button-color);
 	font-weight: 600;
-
+	font-style: Bold;
 	font-size: 2rem;
 	line-height: 2rem;
-
+	letter-spacing: 0%;
 	text-align: center;
 	vertical-align: middle;
 	color: var(--button-text-or-fon-color);
@@ -1042,10 +1043,10 @@ button:active {
 		top: -62.4rem;
 		right: -14.2rem;
 		font-weight: 700;
-
+		font-style: Bold;
 		font-size: 1.4rem;
 		line-height: 1.4rem;
-
+		letter-spacing: 0%;
 		vertical-align: middle;
 		text-transform: uppercase;
 		color: var(--black-h);
@@ -1073,7 +1074,7 @@ button:active {
 	font-style: normal;
 	font-size: 1.6rem;
 	line-height: 2.56rem;
-
+	letter-spacing: 0%;
 	text-align: center;
 	vertical-align: middle;
 	color: var(--gray-info);
@@ -1109,10 +1110,10 @@ button:active {
 	width: inherit;
 	height: 4.8rem;
 	font-weight: 700;
-
+	font-style: bold;
 	font-size: 2.4rem;
 	line-height: 2.4rem;
-
+	letter-spacing: 0%;
 	vertical-align: middle;
 	color: var(--black-h);
 }
@@ -1123,7 +1124,7 @@ button:active {
 	font-style: normal;
 	font-size: 1.8rem;
 	line-height: 3.24rem;
-
+	letter-spacing: 0%;
 	vertical-align: middle;
 	color: var(--gray-info);
 }
@@ -1201,7 +1202,7 @@ button:active {
 	width: 62.933rem;
 	height: 10.6rem;
 	font-weight: 700;
-
+	font-style: bold;
 	font-size: 4.4rem;
 	line-height: 5.28rem;
 	letter-spacing: -0.05rem;
@@ -1215,7 +1216,7 @@ button:active {
 	font-style: normal;
 	font-size: 1.8rem;
 	line-height: 3.24rem;
-
+	letter-spacing: 0%;
 	vertical-align: middle;
 	color: var(--form-text-color);
 }
@@ -1235,7 +1236,7 @@ button:active {
 	font-style: normal;
 	font-size: 1.6rem;
 	line-height: 1.6rem;
-
+	letter-spacing: 0%;
 	vertical-align: middle;
 	color: var(--form-text-color);
 }
@@ -1340,7 +1341,7 @@ footer {
 	font-style: normal;
 	font-size: 1.4rem;
 	line-height: 2.24rem;
-
+	letter-spacing: 0%;
 	vertical-align: middle;
 	color: var(--footer-under-logo);
 }
@@ -1354,7 +1355,7 @@ footer {
 	font-style: normal;
 	font-size: 1.8rem;
 	line-height: 1.8rem;
-
+	letter-spacing: 0%;
 	vertical-align: middle;
 	color: var(--gray-info);
 }
@@ -1368,7 +1369,7 @@ footer {
 	font-style: normal;
 	font-size: 1.6rem;
 	line-height: 2.56rem;
-
+	letter-spacing: 0%;
 	vertical-align: middle;
 	color: var(--gray-info);
 }
@@ -1385,7 +1386,7 @@ footer {
 	font-style: normal;
 	font-size: 1.6rem;
 	line-height: 2.56rem;
-
+	letter-spacing: 0%;
 	vertical-align: middle;
 	color: var(--footer-under-logo);
 }
@@ -1400,7 +1401,7 @@ footer {
 	font-style: normal;
 	font-size: 1.6rem;
 	line-height: 1.6rem;
-
+	letter-spacing: 0%;
 	vertical-align: middle;
 	color: var(--footer-under-logo);
 }
