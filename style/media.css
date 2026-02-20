@@ -2492,6 +2492,7 @@
 	}
 	.cost_card_container {
 		flex-direction: column;
+		align-items: center;
 		width: 41.2rem;
 		height: 106.781rem;
 		padding: 0 2.56rem;
