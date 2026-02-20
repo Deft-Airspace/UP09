@@ -636,6 +636,17 @@
 /*Под разрешение 768px*/
 
 @media (max-width: 768px) {
+	header,
+	main,
+	footer {
+		max-width: 76.8rem;
+	}
+
+	header {
+		height: 6.4rem;
+		position: sticky;
+		top: 0;
+	}
 	footer {
 		padding: 10rem 19rem;
 	}
@@ -644,12 +655,6 @@
 		height: 1.8rem;
 	}
 	aside {
-		width: 0rem;
-		height: 0rem;
-		visibility: hidden;
-		transition: 0.5s;
-	}
-	aside a {
 		display: none;
 	}
 	button {
@@ -663,10 +668,10 @@
 		height: 4rem;
 		position: relative;
 		&::after {
-			content: url('../img/icons/burger.svg');
+			content: url(../img/icons/burger.svg);
 			width: 4rem;
 			height: 4rem;
-			position: absolute;
+			position: relative;
 			z-index: 202;
 			display: flex;
 			align-items: center;
@@ -675,18 +680,13 @@
 	}
 	.header_right:hover aside {
 		display: flex;
-		flex-direction: row;
+		flex-direction: column;
 		background-color: var(--button-text-or-fon-color);
-		gap: 4rem;
-		width: 65rem;
-		visibility: visible;
-		height: 10rem;
-		transition:
-			height 1s,
-			width 0.5s;
+		gap: 3rem;
+		width: 20rem;
+		height: 27rem;
 		z-index: 300;
 		position: absolute;
-		justify-content: center;
 		z-index: 190;
 		padding: 2rem;
 		padding-top: 5rem;
@@ -694,10 +694,6 @@
 		border-radius: 0rem 0rem 1rem 1rem;
 		top: 1rem;
 		right: -3rem;
-	}
-	.header_right:hover aside a {
-		display: block;
-		width: max-content;
 	}
 	.headname {
 		font-size: 1.4rem;
@@ -928,7 +924,7 @@
 		line-height: 3.456rem;
 	}
 	.card_container_flex {
-		max-width: 76.8rem;
+		max-width: inherit;
 		padding: 0 2.56rem;
 		gap: 3.84rem;
 	}
@@ -1331,16 +1327,6 @@
 	button:active {
 		transition: 0.001s ease-in;
 	}
-	.header_right:hover aside {
-		flex-direction: column;
-		width: 20rem;
-		height: 26rem;
-		gap: 2.5rem;
-		padding-top: 6.5rem;
-		top: 1.3rem;
-		right: -2.6rem;
-		transition: 0.5s;
-	}
 	.header_right,
 	.header_right::after {
 		width: 3.839rem;
@@ -1352,12 +1338,10 @@
 	}
 	.healthy_food_dilevery {
 		height: max-content;
-		max-width: 39rem;
 		padding: 1.92rem 0 5.12rem 0;
 	}
 	.container.grid_sec1 {
 		display: flex;
-
 		flex-direction: column;
 		align-items: center;
 		padding: 0 2.56rem;
@@ -1455,8 +1439,7 @@
 		gap: 10rem;
 	}
 	.healthy_doz_block1 {
-		max-width: 39rem;
-		height: max-content;
+		width: 39rem;
 		padding: 0 2.56rem;
 		gap: 1.28rem;
 	}
@@ -1558,13 +1541,12 @@
 	}
 	.system_ai {
 		margin-top: 2rem;
-		max-width: 39rem;
 		height: max-content;
 		padding: 3.8rem 0;
 		gap: 3.84rem;
 	}
 	.system_text_container {
-		max-width: 39rem;
+		width: 39rem;
 		height: 13.059rem;
 		padding: 0 2.56rem;
 		gap: 1.279rem;
@@ -1581,7 +1563,7 @@
 		line-height: 3.456rem;
 	}
 	.card_container_flex {
-		max-width: 39rem;
+		width: 39rem;
 		height: max-content;
 		align-items: center;
 		flex-direction: column;
@@ -1682,7 +1664,7 @@
 		height: 2.4rem;
 	}
 	.a_conteiner {
-		max-width: 39rem;
+		width: 39rem;
 		height: 1.741rem;
 		padding: 0 2.56rem;
 	}
@@ -1699,7 +1681,7 @@
 		gap: 0;
 	}
 	.left_presents {
-		max-width: 39rem;
+		width: 39rem;
 		height: 117.793rem;
 		padding: 7.6rem 2.56rem;
 		gap: 1.28rem;
@@ -1749,7 +1731,7 @@
 		line-height: 1.28rem;
 	}
 	.img_gallery {
-		max-width: 39rem;
+		width: 39rem;
 		height: 29.65rem;
 		grid-template-columns: repeat(4, 8.391rem);
 		grid-template-rows: repeat(3, 8.391rem);
@@ -1764,7 +1746,7 @@
 		gap: 4rem;
 	}
 	.cost_zag_container {
-		max-width: 39rem;
+		width: 39rem;
 		height: 9.586rem;
 		padding: 0 2.56rem;
 		gap: 1.206rem;
@@ -1784,7 +1766,7 @@
 	}
 	.cost_card_container {
 		flex-direction: column;
-		max-width: 39rem;
+		width: 39rem;
 		height: 106.781rem;
 		padding: 0 2.56rem;
 		gap: 3.837rem;
@@ -1866,7 +1848,7 @@
 		line-height: 2.048rem;
 	}
 	.mark_block_cost_container {
-		max-width: 39rem;
+		width: 39rem;
 		height: 86.268rem;
 		padding: 0 2.56rem;
 		flex-direction: column;
@@ -1893,7 +1875,7 @@
 		line-height: 2.592rem;
 	}
 	.for_registr_form {
-		max-width: 39rem;
+		width: 103.835rem;
 		height: max-content;
 		padding-bottom: 12rem;
 	}
@@ -2046,16 +2028,6 @@
 	}
 	button:active {
 		transition: 0.001s ease-in;
-	}
-	.header_right:hover aside {
-		flex-direction: column;
-		width: 20rem;
-		height: 26rem;
-		gap: 2.5rem;
-		padding-top: 6.5rem;
-		top: 1.3rem;
-		right: -2.6rem;
-		transition: 0.5s;
 	}
 	.header_right,
 	.header_right::after {
