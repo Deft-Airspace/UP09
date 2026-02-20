@@ -1,5 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
 @import url('color.css');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
 * {
 	margin: 0;
 	padding: 0;
@@ -59,9 +59,6 @@ header {
 .logo {
 	width: 16.3rem;
 	height: 2.2rem;
-	filter: hue-rotate(127deg);
-	position: relative;
-	z-index: 201;
 }
 aside,
 .header_right {
@@ -384,7 +381,6 @@ button:active {
 	position: relative;
 	display: block;
 	overflow: hidden;
-	filter: hue-rotate(127deg);
 }
 .smartphone_container::after,
 .smartphone_container::before {
@@ -619,7 +615,6 @@ button:active {
 .img_card_icon {
 	width: 2.4rem;
 	height: 2.4rem;
-	filter: hue-rotate(127deg);
 }
 .card_string_text {
 	height: 1.8rem;
@@ -661,7 +656,7 @@ button:active {
 .list_style {
 	width: 3rem;
 	height: 3rem;
-	filter: hue-rotate(127deg);
+	filter: brightness(0) invert(41%) sepia(96%) hue-rotate(109deg) saturate(74%);
 }
 .card_ul li {
 	height: 2.2rem;
@@ -919,7 +914,6 @@ button:active {
 	&:hover {
 		transform: scale(110%);
 		transition: 0.4s ease-in-out;
-		cursor: pointer;
 	}
 }
 .one_card {
@@ -1112,7 +1106,6 @@ button:active {
 	width: 6.4rem;
 	height: 6.4rem;
 	border-radius: 50%;
-	filter: hue-rotate(127deg);
 }
 .mark_cost_zag {
 	width: inherit;
