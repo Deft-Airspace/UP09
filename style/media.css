@@ -636,6 +636,17 @@
 /*Под разрешение 768px*/
 
 @media (max-width: 768px) {
+	header,
+	main,
+	footer {
+		max-width: 76.8rem;
+	}
+
+	header {
+		height: 6.4rem;
+		position: sticky;
+		top: 0;
+	}
 	footer {
 		padding: 10rem 19rem;
 	}
@@ -663,6 +674,7 @@
 		height: 4rem;
 		position: relative;
 		&::after {
+			content: url(../img/icons/burger.svg);
 			width: 4rem;
 			height: 4rem;
 			position: absolute;
@@ -927,7 +939,7 @@
 		line-height: 3.456rem;
 	}
 	.card_container_flex {
-		max-width: 76.8rem;
+		max-width: inherit;
 		padding: 0 2.56rem;
 		gap: 3.84rem;
 	}
