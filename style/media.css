@@ -655,6 +655,12 @@
 		height: 1.8rem;
 	}
 	aside {
+		width: 0rem;
+		height: 0rem;
+		visibility: hidden;
+		transition: height 1s;
+	}
+	aside a {
 		display: none;
 	}
 	button {
@@ -671,7 +677,7 @@
 			content: url(../img/icons/burger.svg);
 			width: 4rem;
 			height: 4rem;
-			position: relative;
+			position: absolute;
 			z-index: 202;
 			display: flex;
 			align-items: center;
@@ -680,13 +686,18 @@
 	}
 	.header_right:hover aside {
 		display: flex;
-		flex-direction: column;
+		flex-direction: row;
 		background-color: var(--button-text-or-fon-color);
-		gap: 3rem;
-		width: 20rem;
-		height: 27rem;
+		gap: 4rem;
+		width: 65rem;
+		visibility: visible;
+		height: 10rem;
+		transition:
+			height 1s,
+			width 0.5s;
 		z-index: 300;
 		position: absolute;
+		justify-content: center;
 		z-index: 190;
 		padding: 2rem;
 		padding-top: 5rem;
@@ -694,6 +705,10 @@
 		border-radius: 0rem 0rem 1rem 1rem;
 		top: 1rem;
 		right: -3rem;
+	}
+	.header_right:hover aside a {
+		display: block;
+		width: max-content;
 	}
 	.headname {
 		font-size: 1.4rem;
@@ -1326,6 +1341,16 @@
 	}
 	button:active {
 		transition: 0.001s ease-in;
+	}
+	.header_right:hover aside {
+		flex-direction: column;
+		width: 20rem;
+		height: 26rem;
+		gap: 2.5rem;
+		padding-top: 6.5rem;
+		top: 1.3rem;
+		right: -2.6rem;
+		transition: 0.5s;
 	}
 	.header_right,
 	.header_right::after {
