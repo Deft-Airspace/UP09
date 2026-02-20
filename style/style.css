@@ -656,7 +656,6 @@ button:active {
 .list_style {
 	width: 3rem;
 	height: 3rem;
-	filter: brightness(0) invert(41%) sepia(96%) hue-rotate(109deg) saturate(74%);
 }
 .card_ul li {
 	height: 2.2rem;
