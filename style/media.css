@@ -1510,7 +1510,7 @@
 	}
 	.case_info {
 		width: 33.88rem;
-		height: 29.649rem;
+		height: max-content;
 		gap: 0rem;
 	}
 	.number {
@@ -1544,12 +1544,12 @@
 	.smartphone_container:nth-child(3):before {
 		width: 15.2rem;
 		height: 15.2rem;
-		top: 209rem;
+		top: 214rem;
 	}
 	.smartphone_container:nth-child(6):before {
 		width: 15.2rem;
 		height: 15.2rem;
-		top: 275.4rem;
+		top: 280.3rem;
 	}
 	.smartphone_container:nth-child(2)::after {
 		width: 20rem;
@@ -1559,12 +1559,12 @@
 	.smartphone_container:nth-child(3)::after {
 		width: 20rem;
 		height: 20rem;
-		top: 206.6rem;
+		top: 211.6rem;
 	}
 	.smartphone_container:nth-child(6)::after {
 		width: 20rem;
 		height: 20rem;
-		top: 273rem;
+		top: 278rem;
 	}
 	.system_ai {
 		margin-top: 2rem;
