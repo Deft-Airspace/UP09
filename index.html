@@ -26,6 +26,269 @@
 				rel="stylesheet"
 		/></noscript>
 		<title>Omnifood</title>
+		<style>
+			@media (max-width: 768px) {
+				header,
+				main,
+				footer {
+					max-width: 76.8rem;
+				}
+
+				header {
+					height: 6.4rem;
+					position: sticky;
+					top: 0;
+				}
+				.logo {
+					width: 13rem;
+					height: 1.8rem;
+				}
+				aside {
+					width: 0rem;
+					height: 0rem;
+					visibility: hidden;
+					transition: 0.5s;
+				}
+				aside a {
+					display: none;
+				}
+				button {
+					transition: 0.01s ease-out;
+				}
+				button:active {
+					transition: 0.01s ease-in;
+				}
+				.header_right {
+					width: 4rem;
+					height: 4rem;
+					position: relative;
+					&::after {
+						content: url('../img/icons/burger.svg');
+						width: 4rem;
+						height: 4rem;
+						position: absolute;
+						z-index: 202;
+						display: flex;
+						align-items: center;
+						justify-content: center;
+					}
+				}
+				.header_right:hover aside {
+					display: flex;
+					flex-direction: row;
+					background-color: var(--button-text-or-fon-color);
+					gap: 4rem;
+					width: 65rem;
+					visibility: visible;
+					height: 10rem;
+					transition:
+						height 1s,
+						width 0.5s;
+					z-index: 300;
+					position: absolute;
+					justify-content: center;
+					z-index: 190;
+					padding: 2rem;
+					padding-top: 5rem;
+					border: none;
+					border-radius: 0rem 0rem 1rem 1rem;
+					top: 1rem;
+					right: -3rem;
+				}
+				.header_right:hover aside a {
+					display: block;
+					width: max-content;
+				}
+				.headname {
+					font-size: 1.4rem;
+					line-height: 1.4rem;
+				}
+				.healthy_doz_info {
+					padding: 6.299rem 0 3.84rem 0;
+					gap: 7.68rem;
+				}
+				.healthy_food_dilevery {
+					width: 76.8rem;
+					height: 84.1rem;
+					padding: 2.8rem 5rem 7.6rem 5rem;
+				}
+				.grid_sec1 {
+					display: flex;
+					flex-direction: column;
+					gap: 6rem;
+				}
+				.container {
+					width: 100rem;
+				}
+				.left_sec1 {
+					width: 64rem;
+					height: 29.466rem;
+				}
+				.deliver {
+					font-size: 3.52rem;
+					line-height: 3.696rem;
+					text-align: center;
+				}
+				.info_delivery {
+					font-size: 1.6rem;
+					line-height: 2.56rem;
+					text-align: center;
+					margin-top: 3rem;
+				}
+				.sec1_but_cont {
+					width: inherit;
+					height: min-content;
+					flex-direction: row;
+					justify-content: center;
+					gap: 2rem;
+				}
+				.sec1_but {
+					font-size: 1.6rem;
+					line-height: 1.6rem;
+					padding: 1.28rem 2.56rem;
+				}
+				.orange_but.sec1_but {
+					width: 27.7rem;
+					height: 4.16rem;
+				}
+				.white_but.sec1_but {
+					width: 15.3rem;
+					height: 4.16rem;
+				}
+				.avatar_and_text {
+					width: inherit;
+					height: 3.839rem;
+					justify-content: center;
+					gap: 1.279rem;
+					margin-top: 2rem;
+				}
+				.avatar {
+					width: 3.8rem;
+					height: 3.8rem;
+				}
+				.sec1_p {
+					font-size: 1.44rem;
+					line-height: 1.44rem;
+				}
+				.healthy_food_dilevery picture {
+					margin-top: 0;
+					margin: auto;
+				}
+				.img_deliv_grid {
+					width: 38.4rem;
+					height: 37.888rem;
+				}
+			}
+			@media (max-width: 390px) {
+				header,
+				footer,
+				main {
+					max-width: 39rem;
+				}
+				header {
+					padding: 0 2.559rem;
+					height: 6.4rem;
+				}
+				button {
+					transition: 0.001s ease-out;
+				}
+				button:active {
+					transition: 0.001s ease-in;
+				}
+				.header_right:hover aside {
+					flex-direction: column;
+					width: 20rem;
+					height: 26rem;
+					gap: 2.5rem;
+					padding-top: 6.5rem;
+					top: 1.3rem;
+					right: -2.6rem;
+					transition: 0.5s;
+				}
+				.header_right,
+				.header_right::after {
+					width: 3.839rem;
+					height: 3.839rem;
+				}
+				.headname {
+					font-size: 1.4rem;
+					line-height: 1.4rem;
+				}
+				.healthy_food_dilevery {
+					height: max-content;
+					padding: 1.92rem 0 5.12rem 0;
+				}
+				.container.grid_sec1 {
+					display: flex;
+					flex-direction: column;
+					align-items: center;
+					padding: 0 2.56rem;
+					gap: 5.119rem;
+				}
+				.left_sec1 {
+					width: 33.8rem;
+					height: max-content;
+				}
+
+				.deliver {
+					width: inherit;
+					height: 14.8rem;
+					font-size: 3.52rem;
+					line-height: 3.696rem;
+				}
+				.info_delivery {
+					width: inherit;
+					height: 10.3rem;
+					font-size: 1.6rem;
+					line-height: 2.56rem;
+				}
+				.sec1_but_cont {
+					display: flex;
+					flex-direction: column;
+					gap: 0.5rem;
+					width: inherit;
+					height: max-content;
+					align-items: center;
+				}
+
+				.avatar_and_text {
+					width: inherit;
+					height: 3.839rem;
+					gap: 1.28rem;
+				}
+				.sec1_but {
+					padding: 1.92rem 1.28rem;
+					font-size: 1.6rem;
+					line-height: 1.6rem;
+				}
+				.sec1_but.orange_but {
+					width: 25.16rem;
+					height: 5.44rem;
+				}
+				.white_but.sec1_but {
+					width: 20rem;
+					height: 5.44rem;
+				}
+				.avatar {
+					width: 3.839rem;
+					height: 3.839rem;
+				}
+				.sec1_p {
+					width: 16.032rem;
+					height: 2.96rem;
+					padding: 0 0.316rem 0.061rem 0.316rem;
+					font-size: 1.44rem;
+					line-height: 1.44rem;
+					text-align: center;
+					vertical-align: middle;
+				}
+				.img_deliv_grid {
+					width: 29rem;
+					width: 28rem;
+					object-fit: contain;
+				}
+			}
+		</style>
 	</head>
 	<body>
 		<!--Хэдер-->
