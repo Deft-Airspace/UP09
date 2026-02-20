@@ -658,7 +658,7 @@
 		width: 0rem;
 		height: 0rem;
 		visibility: hidden;
-		transition: height 1s;
+		transition: 0.5s;
 	}
 	aside a {
 		display: none;
