@@ -679,7 +679,7 @@
 			justify-content: center;
 		}
 	}
-	.header_right:hover aside {
+	.menu_active {
 		display: flex;
 		flex-direction: column;
 		background-color: var(--button-text-or-fon-color);
