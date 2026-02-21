@@ -1378,7 +1378,7 @@
 	.healthy_doz_block2_grid_row3_col2 {
 		gap: 1.2rem;
 		grid-template-columns: repeat(2, 49vw);
-		grid-template-rows: repeat(3, 43vw);
+		grid-template-rows: repeat(3, 40vh);
 		place-items: center;
 	}
 	.one_case {
