@@ -5,3 +5,7 @@ function menu() {
 		menu.classList.toggle('menu_active')
 	}
 }
+
+if ('serviceWorker' in navigator) {
+	navigator.serviceWorker.register('/sw.js')
+}
