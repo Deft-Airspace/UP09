@@ -1,5 +1,6 @@
 @import url('color.css');
 @import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
 * {
 	margin: 0;
 	padding: 0;
@@ -37,7 +38,8 @@ picture {
 }
 
 a,
-button:active {
+button:active,
+button {
 	-webkit-tap-highlight-color: transparent;
 }
 
@@ -374,6 +376,7 @@ button:active {
 	height: 37.941rem;
 	display: flex;
 	justify-content: center;
+	position: relative;
 }
 .smartphone {
 	width: 18.759rem;
@@ -389,58 +392,23 @@ button:active {
 	border-radius: 50%;
 	position: absolute;
 }
-.smartphone_container:nth-child(2):before {
+.smartphone_container:before {
 	content: '';
 	width: 25rem;
 	height: 25rem;
 	border-radius: 50%;
 	background-color: var(--back-circle);
-	top: 125rem;
+	top: 6.5rem;
 	z-index: -1;
 }
-.smartphone_container:nth-child(3):before {
-	content: '';
-	width: 25rem;
-	height: 25rem;
-	border-radius: 50%;
-	background-color: var(--back-circle);
-	top: 165rem;
-	z-index: -1;
-}
-.smartphone_container:nth-child(6):before {
-	content: '';
-	width: 25rem;
-	height: 25rem;
-	border-radius: 50%;
-	background-color: var(--back-circle);
-	top: 205rem;
-	z-index: -1;
-}
-.smartphone_container:nth-child(2)::after {
+
+.smartphone_container::after {
 	content: '';
 	width: 32.2rem;
 	height: 32.2rem;
 	border-radius: 50%;
 	background-color: var(--front-circle);
-	top: 121.2rem;
-	z-index: -2;
-}
-.smartphone_container:nth-child(3)::after {
-	content: '';
-	width: 32.2rem;
-	height: 32.2rem;
-	border-radius: 50%;
-	background-color: var(--front-circle);
-	top: 161.2rem;
-	z-index: -2;
-}
-.smartphone_container:nth-child(6)::after {
-	content: '';
-	width: 32.2rem;
-	height: 32.2rem;
-	border-radius: 50%;
-	background-color: var(--front-circle);
-	top: 201.2rem;
+	top: 3rem;
 	z-index: -2;
 }
 
