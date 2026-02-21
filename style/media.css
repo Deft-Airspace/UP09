@@ -657,6 +657,18 @@
 	}
 	aside {
 		display: none;
+		width: 20rem;
+		height: 27rem;
+		z-index: 300;
+		position: absolute;
+		z-index: 190;
+		padding: 2rem;
+		padding-top: 5rem;
+		border: none;
+		border-radius: 0rem 0rem 1rem 1rem;
+		background-color: var(--button-text-or-fon-color);
+		top: 1rem;
+		right: -2.6rem;
 	}
 	button {
 		transition: 0.01s ease-out;
@@ -682,19 +694,7 @@
 	.menu_active {
 		display: flex;
 		flex-direction: column;
-		background-color: var(--button-text-or-fon-color);
 		gap: 3rem;
-		width: 20rem;
-		height: 27rem;
-		z-index: 300;
-		position: absolute;
-		z-index: 190;
-		padding: 2rem;
-		padding-top: 5rem;
-		border: none;
-		border-radius: 0rem 0rem 1rem 1rem;
-		top: 1rem;
-		right: -2.6rem;
 	}
 	.headname {
 		font-size: 1.4rem;
