@@ -124,7 +124,10 @@
 
 		<link rel="icon" href="img/mark/favicon.webp" />
 
-		<link rel="stylesheet" href="style/all.css" />
+		<!-- Асинхронная загрузка CSS -->
+		<link rel="preload" href="style/all.css" as="style" onload="this.onload=null;this.rel='stylesheet'" />
+		<noscript><link rel="stylesheet" href="style/all.css" /></noscript>
+		
 		<title>Omnifood</title>
 	</head>
 	<body>
@@ -1724,7 +1727,7 @@
 						<h3 class="mark_cost_zag">Приостановить в любое время</h3>
 						<p class="mark_cost_info">
 							Собираетесь в отпуск? Просто приостановите подписку, и мы вернем
-							вам деньги за неиспользованные дни.
+							вам деньги за неиспольз����ванные дни.
 						</p>
 					</article>
 				</div>
@@ -1973,6 +1976,6 @@
 				</div>
 			</article>
 		</footer>
-		<script src="script/script.js"></script>
+		<script src="script/script.js" defer></script>
 	</body>
 </html>
