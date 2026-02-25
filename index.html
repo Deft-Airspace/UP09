@@ -4,6 +4,11 @@
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<meta
+			http-equiv="Content-Security-Policy"
+			content="default-src 'self'; 
+               script-src 'self' https://cdn.tailwindcss.com https://unpkg.com;"
+		/>
+		<meta
 			name="description"
 			content="Omnifood: здоровая еда с доставкой каждый день. Персонализированные планы питания AI, 5000+ рецептов для любой диеты. Первый обед бесплатно! Цены от 3990₽/мес."
 		/>
@@ -1652,6 +1657,9 @@
 								<input
 									required
 									type="text"
+									name="full-name"
+									pattern="[A-Za-z\s\-]{2,50}"
+									title="Только буквы, пробелы и дефисы"
 									placeholder="Ввведите имя"
 									class="registr_form_input"
 								/>
@@ -1664,6 +1672,9 @@
 									required
 									placeholder="Введите email"
 									type="email"
+									name="Email"
+									pattern="[A-Za-z0-9@.\-_]{2,50}"
+									title="Цифры, буквы, пробелы и дефисы"
 									class="registr_form_input"
 								/>
 							</div>
@@ -1676,6 +1687,9 @@
 								<input
 									required
 									type="text"
+									name="information"
+									pattern="[A-Za-z\s\-]{2,50}"
+									title="Только буквы, пробелы и дефисы"
 									placeholder="Будем рады узнать"
 									class="registr_form_input"
 								/>
@@ -1861,5 +1875,9 @@
 			</article>
 		</footer>
 		<script src="script/script.js"></script>
+		<script>
+			const userComment = '<scr' + "ipt>alert('XSS')</scr" + 'ipt>'
+			const safeComment = cleanInput(userComment)
+		</script>
 	</body>
 </html>

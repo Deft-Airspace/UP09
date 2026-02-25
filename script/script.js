@@ -1,3 +1,5 @@
+//Функция для меню на мобильных устройствах
+
 function menu() {
 	const but = document.getElementById('but')
 	const menu = document.getElementById('menu')
@@ -8,6 +10,9 @@ function menu() {
 		but.classList.toggle('header_right')
 	}
 }
+
+//Функция футера для адаптива
+
 function addclass() {
 	const footer = document.getElementById('footer')
 	const cont = document.getElementById('cont')
@@ -19,4 +24,14 @@ function addclass() {
 		cont.classList.remove('js_wrap')
 	}
 }
-window.addEventListener('resize', addclass())
+window.addEventListener('resize', addclass)
+
+//Функция очистки
+
+function cleanInput(text) {
+	return text
+		.replace(/</g, '&lt;')
+		.replace(/>/g, '&gt;')
+		.replace(/"/g, '&quot;')
+		.replace(/'/g, '&#039;')
+}
