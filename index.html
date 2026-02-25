@@ -15,15 +15,6 @@
 			content="Omnifood: здоровая еда с доставкой каждый день. Персонализированные планы питания AI, 5000+ рецептов для любой диеты. Первый обед бесплатно! Цены от 3990₽/мес."
 		/>
 
-		<link rel="preload" href="font/Rubik-Regular.woff2" as="font" crossorigin />
-		<link rel="preload" href="font/Rubik-Medium.woff2" as="font" crossorigin />
-		<link
-			rel="preload"
-			href="font/Rubik-SemiBold.woff2"
-			as="font"
-			crossorigin
-		/>
-
 		<link rel="preload" href="font/Rubik-Bold.woff2" as="font" crossorigin />
 		<link rel="preload" href="img/hero.webp" as="image" fetchpriority="high" />
 		<style>
@@ -119,6 +110,114 @@
 				font-style: normal;
 				line-height: 1.8rem;
 				text-decoration: none;
+			}
+			/* Критические стили для LCP (первый экран) */
+			.healthy_food_dilevery {
+				display: flex;
+				justify-content: center;
+				max-width: inherit;
+				height: 71.8rem;
+				padding: 4.8rem 31rem 9.6rem 31rem;
+				background-color: var(--sec1-fon);
+			}
+			.grid_sec1 {
+				display: grid;
+				grid-template-rows: 100%;
+				grid-template-columns: 46% 54%;
+			}
+			.deliver {
+				font-weight: 700;
+				font-size: 5.2rem;
+				line-height: 5.46rem;
+				letter-spacing: -0.5px;
+				font-style: bold;
+				color: var(--black-h);
+				margin-top: -0.06rem;
+			}
+			.info_delivery {
+				font-weight: 400;
+				font-style: normal;
+				font-size: 2rem;
+				line-height: 3.2rem;
+				letter-spacing: 0%;
+				vertical-align: middle;
+				color: var(--gray-info);
+				margin-top: 4.5rem;
+			}
+			.sec1_but_cont {
+				display: flex;
+				width: max-content;
+				flex-direction: row;
+				gap: 2rem;
+				margin-top: 5.9rem;
+			}
+			.orange_but {
+				width: 16.6rem;
+				height: 4.2rem;
+				border-radius: 0.9rem;
+				padding: 1.2rem 2.4rem 1.2rem 2.4rem;
+				background-color: var(--button-color);
+				border: none;
+				color: var(--button-text-or-fon-color);
+				font-style: normal;
+			}
+			.sec1_but {
+				font-weight: 600;
+				font-style: bold;
+				font-size: 2rem;
+				line-height: 1rem;
+				letter-spacing: 0%;
+				text-wrap: nowrap;
+				width: 34.6rem;
+				height: 5.2rem;
+				vertical-align: middle;
+			}
+			.white_but {
+				background-color: var(--button-text-or-fon-color);
+				border-radius: 0.9rem;
+				border: none;
+				width: 19.1rem;
+				height: 5.2rem;
+			}
+			.avatar_and_text {
+				width: 57rem;
+				height: 4.8rem;
+				margin-top: 8.6rem;
+				display: flex;
+				flex-direction: row;
+				gap: 1.6rem;
+				align-items: center;
+				padding-left: 1.9rem;
+			}
+			.avatar {
+				width: 4.8rem;
+				height: 4.8rem;
+				border-radius: 2.4rem;
+				border: 3px solid var(--border-color);
+				margin-left: -2rem;
+			}
+			.sec1_p {
+				font-weight: 700;
+				font-style: bold;
+				font-size: 1.8rem;
+				line-height: 1.8rem;
+				vertical-align: middle;
+			}
+			.text-color-orange {
+				color: var(--text-color-orange);
+				font-weight: 600;
+			}
+			.img_deliv_grid {
+				object-fit: cover;
+				width: 57rem;
+				height: 56.2rem;
+			}
+			.container {
+				max-width: 130rem;
+				height: 57.4rem;
+				padding: 0 3.2rem;
+				gap: 9.6rem;
+				position: relative;
 			}
 		</style>
 
@@ -1666,7 +1765,7 @@
 							<img
 								loading="lazy"
 								class="mark_cost_img"
-								alt="Иконка"
+								alt="��конка"
 								src="img/mark/apple-128.webp"
 							/>
 						</picture>
