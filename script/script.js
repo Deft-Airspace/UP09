@@ -35,3 +35,7 @@ function cleanInput(text) {
 		.replace(/"/g, '&quot;')
 		.replace(/'/g, '&#039;')
 }
+
+const userComment = '<scr' + "ipt>alert('XSS')</scr" + 'ipt>'
+const safeComment = cleanInput(userComment)
+console.log(safeComment)
