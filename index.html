@@ -123,11 +123,8 @@
 		</style>
 
 		<link rel="icon" href="img/mark/favicon.webp" />
+		<link rel="stylesheet" href="style/all.css" />
 
-		<!-- Асинхронная загрузка CSS -->
-		<link rel="preload" href="style/all.css" as="style" onload="this.onload=null;this.rel='stylesheet'" />
-		<noscript><link rel="stylesheet" href="style/all.css" /></noscript>
-		
 		<title>Omnifood</title>
 	</head>
 	<body>
@@ -1775,8 +1772,6 @@
 									placeholder="Введите email"
 									type="email"
 									name="Email"
-									pattern="[A-Za-z0-9@.\-_]{2,50}"
-									title="Цифры, буквы, пробелы и дефисы"
 									class="registr_form_input"
 								/>
 							</div>
