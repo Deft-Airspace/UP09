@@ -17,7 +17,8 @@ document.getElementById('but').addEventListener('click', menu)
 function addclass() {
 	const footer = document.getElementById('footer')
 	const cont = document.getElementById('cont')
-	if (window.innerWidth <= 1000 && window.innerWidth >= 880) {
+	const width = window.innerWidth
+	if (width <= 1000 && width >= 880) {
 		footer.classList.add('footer_pad_js')
 		cont.classList.add('js_wrap')
 	} else {
