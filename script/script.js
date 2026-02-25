@@ -10,6 +10,7 @@ function menu() {
 		but.classList.toggle('header_right')
 	}
 }
+document.getElementById('but').addEventListener('click', menu)
 
 //Функция футера для адаптива
 
@@ -25,6 +26,7 @@ function addclass() {
 	}
 }
 window.addEventListener('resize', addclass)
+addclass()
 
 //Функция очистки
 
