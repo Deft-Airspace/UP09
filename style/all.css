@@ -3529,13 +3529,14 @@ footer {
 		gap: 1.2rem;
 		grid-template-columns: repeat(2, 49vw);
 		grid-template-rows: repeat(3, 40vh);
+		padding: 3rem 1rem;
 		place-items: center;
 	}
 	.one_case {
 		margin-bottom: -2rem;
 	}
 	.smartphone_container {
-		width: 45vw;
+		width: 40vw;
 		height: 24.009rem;
 	}
 	.smartphone {

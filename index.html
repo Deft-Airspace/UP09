@@ -26,7 +26,102 @@
 
 		<link rel="preload" href="font/Rubik-Bold.woff2" as="font" crossorigin />
 		<link rel="preload" href="img/hero.webp" as="image" fetchpriority="high" />
-		<link rel="preload" href="style/critical.css" as="style" />
+		<style>
+			:root {
+				--shadow-003: rgba(0, 0, 0, 0.3);
+				--shadow-0015: rgba(0, 0, 0, 0.15);
+				--shadow-0003: rgba(0, 0, 0, 0.03);
+				--button-color: #48dbac;
+				--button-text-or-fon-color: #fff;
+				--black-h: #333;
+				--gray-info: #555;
+				--sec1-fon: #e8f8f5;
+				--border-color: #e8f8f5;
+				--text-color-orange: #1abc9c;
+				--gray-color-about: #888;
+				--case-h-color-gray: #ddd;
+				--front-circle: #e8f8f5;
+				--back-circle: #d1f2eb;
+				--green-color-card-mark: #51cf66;
+				--lightgreen-color-card-mark: #94d82d;
+				--yellow-color-card-mark: #ffd43b;
+				--red-color-card-mark: #f56262;
+				--card-shadow: rgba(0, 0, 0, 0.075);
+				--section-five-color: #e8f8f5;
+				--user-name-color: #6f6f6f;
+				--lightorange-color: #7dd3c0;
+				--form-text-color: #0a453a;
+				--light-orange-gradient-opacity: rgba(125, 211, 192, 0.35);
+				--dark-orange-gradient-opacity: rgba(72, 219, 172, 0.35);
+				--footer-border: #eee;
+				--footer-under-logo: #767676;
+			}
+			* {
+				margin: 0;
+				padding: 0;
+				box-sizing: border-box;
+			}
+			html {
+				font-size: 10px;
+				scroll-behavior: smooth;
+			}
+			body {
+				line-height: 1;
+				color: #333;
+				font-family: 'Rubik';
+			}
+			main {
+				max-width: 1920px;
+			}
+			.a_button {
+				text-decoration: none;
+				color: inherit;
+			}
+			picture {
+				width: max-content;
+				height: max-content;
+			}
+			a,
+			button:active {
+				-webkit-tap-highlight-color: transparent;
+			}
+			header {
+				max-width: 1920px;
+				height: 8rem;
+				display: flex;
+				flex-direction: row;
+				justify-content: space-between;
+				align-items: center;
+				padding: 0 4.8rem;
+				box-shadow: 0 1.2rem 3.6rem var(--shadow-0003);
+				background-color: var(--button-text-or-fon-color);
+				position: relative;
+				z-index: 200;
+			}
+			.logo {
+				width: 16.3rem;
+				height: 2.2rem;
+			}
+			aside,
+			.header_right {
+				width: 71rem;
+				height: 4.2rem;
+				display: flex;
+				flex-direction: row;
+				gap: 4.8rem;
+				align-items: center;
+			}
+			.headname {
+				font-weight: 500;
+				letter-spacing: 0;
+				color: var(--black-h);
+				font-size: 1.8rem;
+				font-style: normal;
+				line-height: 1.8rem;
+				text-decoration: none;
+			}
+		</style>
+		>
 
 		<link rel="icon" href="img/mark/favicon.webp" />
 
