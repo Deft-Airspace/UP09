@@ -141,3 +141,7 @@ Omnifood - это веб-сайт для сервиса доставки здо�
             <td>< 200ms</td>
         </tr>
 </table>
+
+## Добавлен SSL-сертификат:
+
+<img src="otch/ssl_otch.png">
