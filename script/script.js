@@ -40,4 +40,3 @@ function cleanInput(text) {
 
 const userComment = '<scr' + "ipt>alert('XSS')</scr" + 'ipt>'
 const safeComment = cleanInput(userComment)
-console.log(safeComment)
